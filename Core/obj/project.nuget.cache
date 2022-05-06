@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jivtEr6SyV8FMUMIt4omwNtw6CmI3ar+3rm3X1v7R/15zlYPizE+zRghq/2B+4fnUrRvx95K51cVjHIwjBChXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\FinancialDataDownloader\\FinancialDataDownloader\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chabe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\chabe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\chabe\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
