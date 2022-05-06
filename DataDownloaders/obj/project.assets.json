@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ppil\\.nuget\\packages\\": {},
@@ -17,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataParsers\\DataParsers.csproj",
-      "projectName": "DataParsers",
-      "projectPath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataParsers\\DataParsers.csproj",
+      "projectUniqueName": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataDownloaders\\DataDownloaders.csproj",
+      "projectName": "DataDownloaders",
+      "projectPath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataDownloaders\\DataDownloaders.csproj",
       "packagesPath": "C:\\Users\\ppil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataParsers\\obj\\",
+      "outputPath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataDownloaders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -50,7 +69,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
