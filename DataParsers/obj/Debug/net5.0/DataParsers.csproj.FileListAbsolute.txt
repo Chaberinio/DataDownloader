@@ -10,3 +10,15 @@ C:\Users\ppil\source\repos\FinancialDataDownloader\DataParsers\obj\Debug\net5.0\
 C:\Users\ppil\source\repos\FinancialDataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.dll
 C:\Users\ppil\source\repos\FinancialDataDownloader\DataParsers\obj\Debug\net5.0\ref\DataParsers.dll
 C:\Users\ppil\source\repos\FinancialDataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\DataParsers.deps.json
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\DataParsers.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\DataParsers.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.csproj.AssemblyReference.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.AssemblyInfoInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.AssemblyInfo.cs
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.csproj.CoreCompileInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\refint\DataParsers.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\ref\DataParsers.dll

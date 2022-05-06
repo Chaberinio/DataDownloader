@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jICA9VfZgWQx4UfLVmtah6m2II35xjFcV/uKI297d+wtA+tixEwQRTzBwzidN5p4TdhFv6yy/d7yIksCqPlPOQ==",
+  "dgSpecHash": "1KZO28vvOEovKotF/2uyqk50h+46+5pVLOLBAeyFHay4Rty3hhQuT2VgrRf2zgHE9W9/LVUv5W7lu7q6pgQqaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\DataParsers\\DataParsers.csproj",
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9TfnspXpOpIzTVUDFLvDzVvWEDxpb7FyXNX65s3xZ37tZifc6wG9JoQOhsntBxoNDe2uzApPbVGdhyIeZLMpaA==",
+  "dgSpecHash": "hwxUJvb5ClLGjb+08vI/zHXrUyrVWvvnKRlTKR62CX/5D5AwIM5yG0RfC6uIIj6GkRXRSI2nr35tmJMr2Ux7WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppil\\source\\repos\\FinancialDataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chabe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
