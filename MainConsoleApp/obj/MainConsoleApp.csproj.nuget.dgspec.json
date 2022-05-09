@@ -145,7 +145,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              },
+              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
+                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

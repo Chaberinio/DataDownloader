@@ -32,16 +32,16 @@ namespace DataDownloaders
             //var uriRequest = new Uri(url);
 
 
-            ////HttpRequestMessage requestMessage = new HttpRequestMessage(new HttpMethod("POST"), url);
+            //HttpRequestMessage requestMessage = new HttpRequestMessage(new HttpMethod("POST"), url);
 
-            ////requestMessage.Content = JsonContent.Create(new
-            ////{
-            ////    grant_type = grantType,
-            ////    refresh_token = refreshToken,
-            ////    client_id = ClientID,
-            ////    client_assertion_type = ClientAssertionType,
-            ////    client_assertion = ClientAssertion
-            ////});
+            //requestMessage.Content = JsonContent.Create(new
+            //{
+            //    grant_type = grantType,
+            //    refresh_token = refreshToken,
+            //    client_id = ClientID,
+            //    client_assertion_type = ClientAssertionType,
+            //    client_assertion = ClientAssertion
+            //});
 
             //var content = new Windows.Web.Http.HttpFormUrlEncodedContent(new[]
             //{

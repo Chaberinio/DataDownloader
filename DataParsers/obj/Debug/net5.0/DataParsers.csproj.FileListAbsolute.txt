@@ -22,3 +22,8 @@ C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataP
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\refint\DataParsers.dll
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.pdb
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\ref\DataParsers.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\Core.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\DataDownloaders.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\Core.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\bin\Debug\net5.0\DataDownloaders.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataParsers\obj\Debug\net5.0\DataParsers.csproj.CopyComplete

@@ -1,6 +1,7 @@
 ﻿using Core.Exceptions;
 using Core.Interfaces;
 using DataDownloaders;
+using DataParsers;
 using System;
 using System.Threading.Tasks;
 
@@ -10,9 +11,8 @@ namespace MainConsoleApp
     {
         static async Task Main(string[] args)
         {
-
             IDataDownloader dataDownloader = new RevolutDataDownloader();
-
+            IDataParser revolutDataParser = new RevolutDataParser();
             //string grantType = "refresh_token";
             //string refreshToken = "oa_sand_tn2IVETVE-Y-frCxq7xC1ax1_bq4j3u2m4bxtnJATSw";
             //string ClientID = "q5iANB5dr3I9-lxa6yJAKq_8gA0GdFH48mtipR0tQkw";
@@ -23,7 +23,7 @@ namespace MainConsoleApp
 
             dataDownloader.SetParameter("oa_sand_prjW6jQZKW5ebTtBNghNibg4A0hfdBDyH8KRPIPrQHw");
 
-            string output = string.Empty;
+            string output = "";
             try
             {
 
@@ -40,11 +40,11 @@ namespace MainConsoleApp
                     {
 
                         case 1:
-                            output = "ACCOUNTS:\n" + await dataDownloader.GetAccounts();
+                            output = "ACCOUNTS:\n" + await revolutDataParser.AccountsToString();
                             Console.WriteLine(output);
                             break;
                         case 2:
-                            output = "TRANSACTIONS:\n" + await dataDownloader.GetTransactions();
+                            //output = "TRANSACTIONS:\n" + await dataDownloader.GetTransactions();
                             Console.WriteLine(output);
                             break;
                         case 4:

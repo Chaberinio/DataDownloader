@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1KZO28vvOEovKotF/2uyqk50h+46+5pVLOLBAeyFHay4Rty3hhQuT2VgrRf2zgHE9W9/LVUv5W7lu7q6pgQqaQ==",
+  "dgSpecHash": "KV9iMYzNw+yZEugXyVsIWu1ZXY/jAZrgXoJhIc76l27Yf+ZNSdw+z13QQCptH82bDFAqm8F4ieJpioGnjMqoCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\chabe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
