@@ -36,8 +36,8 @@ namespace DataDownloaders
 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "fd6307d837ff85177c69fa0e74a51304512f9627417658830487cf0470db6890");
 
-            var response = await client.PostAsync(url, );
-            var result = await response.Content.ReadAsStringAsync();
+            //var response = await client.PostAsync(url, );
+            //var result = await response.Content.ReadAsStringAsync();
 
 
 

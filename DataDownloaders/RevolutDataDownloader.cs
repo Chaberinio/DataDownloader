@@ -12,36 +12,25 @@ namespace DataDownloaders
 {
     public class RevolutDataDownloader : IDataDownloader
     {
-        //string url = "https://sandbox-b2b.revolut.com/api/1.0/";
+        string baseUrl = "https://sandbox-b2b.revolut.com/api/1.0/";
 
 
 
 
-        //public string GetAccounts()
-        //{
-        //    using var client = new HttpClient();
-        //    var getUrl = url + "accounts";
+        public string GetAccounts()
+        {
+            using var client = new HttpClient();
+            string url = baseUrl + "accounts";
 
+            HttpRequestMessage requestMessage = new HttpRequestMessage(RequestHTTPMethod, ToString());
 
+            throw new NotImplementedException();
+        }
 
-
-        //    var result = await client.GetStringAsync(url);
-
-        //    return "idk";
-
-
-
-        //var json = JsonConvert.SerializeObject();
-        //var data = new StringContent(json, Encoding.UTF8, "application/json");
         public void GenerateTokenAsync()
         {
             throw new NotImplementedException();
 
-        }
-
-        public string GetAccounts()
-        {
-            throw new NotImplementedException();
         }
 
         public string GetTransactions()
@@ -58,5 +47,5 @@ namespace DataDownloaders
 
 
    
-    }
+    
 }
