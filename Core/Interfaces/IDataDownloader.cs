@@ -11,6 +11,8 @@ namespace Core.Interfaces
         string GetAccounts();
         string GetTransactions();
 
+        void GenerateTokenAsync();
+
         void SetParameter(string value);
 
     }
