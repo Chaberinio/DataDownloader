@@ -1,51 +1,89 @@
 ﻿using Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using Newtonsoft.Json;
+using System.Threading.Tasks;
+
 
 namespace DataDownloaders
 {
     public class RevolutDataDownloader : IDataDownloader
     {
         string baseUrl = "https://sandbox-b2b.revolut.com/api/1.0/";
+        string bearerToken = "";
 
 
 
-
-        public string GetAccounts()
+        public async Task<string> GetAccounts()
         {
             using var client = new HttpClient();
-            string url = baseUrl + "accounts";
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", bearerToken);
+            var url = baseUrl + "transactions";
 
-            HttpRequestMessage requestMessage = new HttpRequestMessage(RequestHTTPMethod, ToString());
+            var response = await client.GetAsync(url);
+            var result = await response.Content.ReadAsStringAsync();
 
-            throw new NotImplementedException();
+            return result;
         }
 
-        public void GenerateTokenAsync()
+        public async Task GenerateTokenAsync(string grantType, string refreshToken, string ClientID, string ClientAssertionType, string ClientAssertion)
         {
-            throw new NotImplementedException();
+            //using var client = new Windows.Web.Http.HttpClient();
+            //string url = baseUrl + "auth/token";
+            //var uriRequest = new Uri(url);
+
+
+            ////HttpRequestMessage requestMessage = new HttpRequestMessage(new HttpMethod("POST"), url);
+
+            ////requestMessage.Content = JsonContent.Create(new
+            ////{
+            ////    grant_type = grantType,
+            ////    refresh_token = refreshToken,
+            ////    client_id = ClientID,
+            ////    client_assertion_type = ClientAssertionType,
+            ////    client_assertion = ClientAssertion
+            ////});
+
+            //var content = new Windows.Web.Http.HttpFormUrlEncodedContent(new[]
+            //{
+            //    new KeyValuePair<string, string>("grant_type", grantType),
+            //    new KeyValuePair<string, string>("refresh_token", refreshToken),
+            //    new KeyValuePair<string, string>("client_id", ClientID),
+            //    new KeyValuePair<string, string>("client_assertion_type", ClientAssertionType),
+            //    new KeyValuePair<string, string>("client_assertion", ClientAssertion)
+            //});
+
+
+            //Windows.Web.Http.HttpResponseMessage response = await client.PostAsync(uriRequest, content);
+
+            //var responseString = await response.Content.ReadAsStringAsync();
+
+            //Console.WriteLine(responseString);
 
         }
 
-        public string GetTransactions()
+        public async Task<string> GetTransactions()
         {
-            throw new NotImplementedException();
+            using var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", bearerToken);
+            var url = baseUrl + "transactions";
+
+            var response = await client.GetAsync(url);
+            var result = await response.Content.ReadAsStringAsync();
+            //Console.WriteLine(result);
+
+            return result;
         }
 
         public void SetParameter(string value)
         {
-            throw new NotImplementedException();
+            bearerToken = value;
         }
+
+
     }
 
 
 
-   
-    
+
+
 }

@@ -14,7 +14,6 @@ C:\Users\ppil\source\repos\FinancialDataDownloader\DataDownloaders\obj\Debug\net
 C:\Users\ppil\source\repos\FinancialDataDownloader\DataDownloaders\obj\Debug\net5.0\ref\DataDownloaders.dll
 C:\Users\ppil\source\repos\FinancialDataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.pdb
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.csproj.AssemblyReference.cache
-C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.AssemblyInfoInputs.cache
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.AssemblyInfo.cs
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.csproj.CoreCompileInputs.cache
@@ -28,3 +27,4 @@ C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\bin\Debug\net5.0\C
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.csproj.CopyComplete
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\refint\DataDownloaders.dll
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\ref\DataDownloaders.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\obj\Debug\net5.0\DataDownloaders.GeneratedMSBuildEditorConfig.editorconfig

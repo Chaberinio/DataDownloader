@@ -8,10 +8,10 @@ namespace Core.Interfaces
 {
     public interface IDataDownloader
     {
-        string GetAccounts();
-        string GetTransactions();
+        Task<string> GetAccounts();
+        Task<string> GetTransactions();
 
-        void GenerateTokenAsync();
+        Task GenerateTokenAsync(string grantType, string refreshToken, string ClientID, string ClientAssertionType, string ClientAssertion);
 
         void SetParameter(string value);
 

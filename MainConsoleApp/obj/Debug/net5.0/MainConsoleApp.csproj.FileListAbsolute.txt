@@ -28,7 +28,6 @@ C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\bin\Debug\net5.0\Da
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\bin\Debug\net5.0\Core.pdb
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\bin\Debug\net5.0\DataParsers.pdb
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.csproj.AssemblyReference.cache
-C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.AssemblyInfoInputs.cache
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.AssemblyInfo.cs
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.csproj.CoreCompileInputs.cache
@@ -45,3 +44,4 @@ C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\bin\Debug\net5.0\Da
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.csproj.CopyComplete
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.genruntimeconfig.cache
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\ref\MainConsoleApp.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
