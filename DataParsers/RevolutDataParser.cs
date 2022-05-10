@@ -38,7 +38,7 @@ namespace DataParsers
                 accountsString +=
                     "{\n ID: " + acc.id + " | Name: " + acc.name +
                     "\n Balance: " + acc.balance + " " + acc.currency + "\n}";
-
+                 
             }
 
             return accountsString;

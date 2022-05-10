@@ -21,7 +21,7 @@ namespace MainConsoleApp
 
             //await dataDownloader.GenerateTokenAsync(grantType, refreshToken, ClientID, ClientAssertionType, ClientAssertion);
 
-            dataDownloader.SetParameter("oa_sand_prjW6jQZKW5ebTtBNghNibg4A0hfdBDyH8KRPIPrQHw");
+            dataDownloader.SetParameter("oa_sand_o3ClhL4nwg3dDV0nvUlAnb18ygBKkykN2LW6dcp_Qv0");
 
             string output = "";
             try
@@ -44,7 +44,7 @@ namespace MainConsoleApp
                             Console.WriteLine(output);
                             break;
                         case 2:
-                            //output = "TRANSACTIONS:\n" + await dataDownloader.GetTransactions();
+                            output = "TRANSACTIONS:\n" + await dataDownloader.GetTransactions();
                             Console.WriteLine(output);
                             break;
                         case 4:

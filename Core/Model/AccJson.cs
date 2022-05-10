@@ -10,7 +10,7 @@ namespace Core.Model
 
         public class RootobjectAccJson
         {
-        public List<AccJson> data { get; set; }
+            public List<AccJson> data { get; set; }
         }
 
         public class AccJson
