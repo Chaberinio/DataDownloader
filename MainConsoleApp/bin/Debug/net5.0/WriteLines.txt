@@ -1,0 +1,70 @@
+{
+	ID: a78a6740-937d-49e5-a7c2-51d9a486c96d | Name: European suppliers
+	Balance: 3208,51 EUR
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:55 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: 3222625d-7500-4597-87b9-2135d9efb571 | Name: Business trips
+	Balance: 14628,51 USD
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:55 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8 | Name: 
+	Balance: 28556,01 GBP
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:55 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: c9575216-cbb5-4717-bb99-748d4493d86a | Name: Payments
+	Balance: 5228,51 AUD
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:55 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: 87251a00-3a8b-4bbd-95ec-c3c55ea491ec | Name: 
+	Balance: 0 GBP
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: e60847eb-3cd6-4a98-8a3e-44aea819b50e | Name: 
+	Balance: 0 EUR
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: a84196ae-2e87-456d-a0ef-df6d3dc62c0f | Name: 
+	Balance: 0 USD
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: 921836a7-3abf-4b11-ab16-504563ab6083 | Name: 
+	Balance: 0 GBP
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: 438a2389-ea04-4796-a3f9-7bf54e99495e | Name: 
+	Balance: 0 EUR
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}
+{
+	ID: eb5723ef-0660-4f39-84eb-52f52440fbce | Name: 
+	Balance: 0 USD
+	State: active
+	Public: False
+	Created at 29.03.2022 12:54:56 | Updated at: 29.03.2022 12:54:56
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3t3hcDKvLB0Bes/23COntzppl16u4w7cy2lxQnkuskv3hX3P2tjUTnkyzuJ3SaEtvUUyX4mz6aRop+UU5I+AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dawid\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dawid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dawid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

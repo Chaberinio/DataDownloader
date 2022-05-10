@@ -10,7 +10,9 @@
         "dependencies": {
           "Core": "1.0.0",
           "DataDownloaders": "1.0.0",
-          "DataParsers": "1.0.0"
+          "DataParsers": "1.0.0",
+          "DataSaver": "1.0.0",
+          "TokenRefresher": "1.0.0"
         },
         "runtime": {
           "MainConsoleApp.dll": {}
@@ -47,6 +49,23 @@
         "runtime": {
           "DataParsers.dll": {}
         }
+      },
+      "DataSaver/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "runtime": {
+          "DataSaver.dll": {}
+        }
+      },
+      "TokenRefresher/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "TokenRefresher.dll": {}
+        }
       }
     }
   },
@@ -74,6 +93,16 @@
       "sha512": ""
     },
     "DataParsers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataSaver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TokenRefresher/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

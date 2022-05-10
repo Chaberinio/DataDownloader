@@ -1,0 +1,621 @@
+{
+	ID: 624301a0-7ce0-ab4c-928a-dce88e39c5d2
+	Type: card_payment
+	State: completed
+	Request ID: d893d3e6-d351-49fe-947c-7e096f55d220
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 098093e4-8d6f-4cea-8c5e-d0a2b8172d50
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -11
+		Currency: GBP
+		Descryption: Amazon
+		Balanc: 28556,01
+		],
+	}
+
+	Card: {
+		Card number: 805719******2246
+		Name:  
+		Phone: 
+	}
+
+}
+{
+	ID: 624301a0-1af9-ae8f-b0e3-f58b3bd16e91
+	Type: card_payment
+	State: completed
+	Request ID: 1322baee-9ec7-42c0-947c-6df0358475c1
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Facebook Ads
+		City: MENLO PARK
+		Category code: 7311
+		Country: USA
+	}
+
+	Legs: {
+		[
+		Leg ID: 8a2098b6-7138-43c0-b930-8200994a2925
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -21,5
+		Currency: GBP
+		Descryption: Facebook Ads
+		Balanc: 28567,01
+		],
+	}
+
+	Card: {
+		Card number: 388507******3244
+		Name:  
+		Phone: 
+	}
+
+}
+{
+	ID: 624301a0-73a0-afad-aa2b-e6a51dccd532
+	Type: card_payment
+	State: completed
+	Request ID: 8f13923e-fbca-4491-9f28-6f2086044c66
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Google
+		City: Cc@google.com
+		Category code: 5968
+		Country: IRL
+	}
+
+	Legs: {
+		[
+		Leg ID: f4cbe205-c178-45be-90a4-c68969d45096
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -240
+		Currency: GBP
+		Descryption: Google
+		Balanc: 28588,51
+		],
+	}
+
+	Card: {
+		Card number: 974793******4919
+		Name:  
+		Phone: 
+	}
+
+}
+{
+	ID: 624301a0-192a-ad11-923a-b24133cddaf8
+	Type: card_payment
+	State: reverted
+	Request ID: 340bdbca-679d-4b86-853d-01e557a271c5
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: e87abb79-1c96-42b9-9730-84f74c6e6619
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -10,99
+		Currency: GBP
+		Descryption: Amazon
+		Balanc: 0
+		],
+	}
+
+	Card: {
+		Card number: 825085******0526
+		Name: Grace Wright
+		Phone: +447223125098
+	}
+
+}
+{
+	ID: 624301a0-9dee-ada5-b1ee-55a05544db32
+	Type: card_payment
+	State: completed
+	Request ID: 354b7840-2245-4b30-bdb9-3c2282658ef0
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: af2567e1-8334-45b1-8e6f-61e55a312456
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -59,99
+		Currency: GBP
+		Descryption: Amazon
+		Balanc: 28828,51
+		],
+	}
+
+	Card: {
+		Card number: 825085******0526
+		Name: Grace Wright
+		Phone: +447223125098
+	}
+
+}
+{
+	ID: 624301a0-803a-a37c-90c3-52565b5c7c6a
+	Type: card_payment
+	State: completed
+	Request ID: 9aec1b78-bba1-405c-a751-1802b25a789d
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Tesco Stores
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: c262f887-f32d-41e0-86aa-2946bd998fbe
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: -11,5
+		Currency: GBP
+		Descryption: Tesco Stores
+		Balanc: 28888,5
+		],
+	}
+
+	Card: {
+		Card number: 825085******0526
+		Name: Grace Wright
+		Phone: +447223125098
+	}
+
+}
+{
+	ID: 624301a0-7089-a09c-9462-22a29bc0b66a
+	Type: card_payment
+	State: reverted
+	Request ID: b89b3f7c-953d-4be5-b8fa-7c81db75af98
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: e8625276-e0fe-423e-bf84-75f37f47aeb2
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: -10,99
+		Currency: EUR
+		Descryption: Amazon
+		Balanc: 0
+		],
+	}
+
+	Card: {
+		Card number: 651897******4468
+		Name: James West
+		Phone: +447235194499
+	}
+
+}
+{
+	ID: 624301a0-bad6-a27c-9fc2-0b3e03527106
+	Type: card_payment
+	State: completed
+	Request ID: d0da120e-dee9-4dfa-a2dc-4e9975dd7844
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: dacd34fb-9ed4-4d10-b9ce-88af31459a02
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: -59,99
+		Currency: EUR
+		Descryption: Amazon
+		Balanc: 3208,51
+		],
+	}
+
+	Card: {
+		Card number: 651897******4468
+		Name: James West
+		Phone: +447235194499
+	}
+
+}
+{
+	ID: 624301a0-7725-a29b-9093-0fe780e480e2
+	Type: card_payment
+	State: completed
+	Request ID: ec7b6f9e-9584-4bc7-a95c-fc442c806412
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Tesco Stores
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 768ec9a8-8d7b-4eb0-a7a8-e68a26c1c481
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: -11,5
+		Currency: EUR
+		Descryption: Tesco Stores
+		Balanc: 3268,5
+		],
+	}
+
+	Card: {
+		Card number: 651897******4468
+		Name: James West
+		Phone: +447235194499
+	}
+
+}
+{
+	ID: 624301a0-94c2-a1b6-b20a-3832c2fd4904
+	Type: card_payment
+	State: reverted
+	Request ID: ebb8cac4-d4f1-48b4-a5e2-9227ce9b2aa0
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: d71e557b-92ea-4817-b058-0e2f4d79e54b
+		Account ID: 3222625d-7500-4597-87b9-2135d9efb571
+		Amound: -10,99
+		Currency: USD
+		Descryption: Amazon
+		Balanc: 0
+		],
+	}
+
+	Card: {
+		Card number: 541482******8608
+		Name: Charles Adams
+		Phone: +447212381557
+	}
+
+}
+{
+	ID: 624301a0-1200-a741-969d-7368e204e7af
+	Type: card_payment
+	State: completed
+	Request ID: effe496b-10fb-4771-81ff-49fe32b0b77b
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 11489684-0e2e-4981-a505-69c3d016601c
+		Account ID: 3222625d-7500-4597-87b9-2135d9efb571
+		Amound: -59,99
+		Currency: USD
+		Descryption: Amazon
+		Balanc: 14628,51
+		],
+	}
+
+	Card: {
+		Card number: 541482******8608
+		Name: Charles Adams
+		Phone: +447212381557
+	}
+
+}
+{
+	ID: 624301a0-a92c-a5bf-8fde-5789c8cd6fed
+	Type: card_payment
+	State: completed
+	Request ID: a60df0b1-1e16-4ec9-acf6-1f1eec24ff74
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Tesco Stores
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 85ff593d-f75e-4ea3-91a9-cccb947783ad
+		Account ID: 3222625d-7500-4597-87b9-2135d9efb571
+		Amound: -11,5
+		Currency: USD
+		Descryption: Tesco Stores
+		Balanc: 14688,5
+		],
+	}
+
+	Card: {
+		Card number: 541482******8608
+		Name: Charles Adams
+		Phone: +447212381557
+	}
+
+}
+{
+	ID: 624301a0-7e7a-a570-9987-78359a01cb16
+	Type: card_payment
+	State: reverted
+	Request ID: d7c74388-a0c7-4bc6-b162-e60de098fa50
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 2a394c05-42f4-417f-98c1-818b56422595
+		Account ID: c9575216-cbb5-4717-bb99-748d4493d86a
+		Amound: -10,99
+		Currency: AUD
+		Descryption: Amazon
+		Balanc: 0
+		],
+	}
+
+	Card: {
+		Card number: 437427******2838
+		Name: Emilia Thompson
+		Phone: +447241378099
+	}
+
+}
+{
+	ID: 624301a0-de3c-a028-b7cc-1dccfb0a0f49
+	Type: card_payment
+	State: completed
+	Request ID: c951ce5d-2120-4086-9cba-f168acdda757
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Amazon
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 4b2a0900-0d11-4241-88cd-50481d1b8bf3
+		Account ID: c9575216-cbb5-4717-bb99-748d4493d86a
+		Amound: -59,99
+		Currency: AUD
+		Descryption: Amazon
+		Balanc: 5228,51
+		],
+	}
+
+	Card: {
+		Card number: 437427******2838
+		Name: Emilia Thompson
+		Phone: +447241378099
+	}
+
+}
+{
+	ID: 624301a0-12f8-a424-8a8e-3d2155922fa5
+	Type: card_payment
+	State: completed
+	Request ID: 4d216427-481e-4dbf-a8cb-ad8dfd1e1bd2
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Merchant: {
+		Name: Tesco Stores
+		City: London
+		Category code: 5969
+		Country: GBR
+	}
+
+	Legs: {
+		[
+		Leg ID: 11706963-453a-40bb-a2c3-ac5767fa55f9
+		Account ID: c9575216-cbb5-4717-bb99-748d4493d86a
+		Amound: -11,5
+		Currency: AUD
+		Descryption: Tesco Stores
+		Balanc: 5288,5
+		],
+	}
+
+	Card: {
+		Card number: 437427******2838
+		Name: Emilia Thompson
+		Phone: +447241378099
+	}
+
+}
+{
+	ID: 624301a0-c20a-a0f2-a353-3ab79e16abd0
+	Type: topup
+	State: failed
+	Request ID: 65adbe2d-a45b-4db3-9e9f-dc442bbd621b
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Legs: {
+		[
+		Leg ID: dc45c4c3-2ce5-4576-9bad-f2c4fb33b6f5
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: 80
+		Currency: EUR
+		Descryption: Card Topup
+		Balanc: 0
+		],
+	}
+{
+	ID: 624301a0-83ad-abcd-b9d4-01881ae8dadd
+	Type: topup
+	State: completed
+	Request ID: babc6f44-ea50-403c-8a09-a8cdfdc63e2c
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Legs: {
+		[
+		Leg ID: fadf1ed4-db00-4a1f-877e-717ed0291004
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: 300
+		Currency: GBP
+		Descryption: Card Topup
+		Balanc: 28900
+		],
+	}
+{
+	ID: 624301a0-6b98-a4f7-9ddf-b6ff9ba91291
+	Type: transfer
+	State: completed
+	Request ID: 3102acf2-d329-4ce8-ba64-ee2197400ece
+	Created at: 29.03.2022 12:54:56
+	Updated at: 29.03.2022 12:54:56
+	Completed at: 29.03.2022 12:54:56
+	Legs: {
+		[
+		Leg ID: 0d88eb48-e8ef-471c-bd55-59fcba6258e7
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: -210
+		Currency: EUR
+		Descryption: To Rory Pearson
+		Balanc: 3280
+		],
+	}
+{
+	ID: 6243019f-b45c-a782-adef-7c1d909c7798
+	Type: topup
+	State: completed
+	Request ID: 60886983-7400-41f2-9223-1af7ea9e25d6
+	Created at: 29.03.2022 12:54:55
+	Updated at: 29.03.2022 12:54:55
+	Completed at: 29.03.2022 12:54:55
+	Legs: {
+		[
+		Leg ID: e5bcd070-412e-4c22-ad62-8abc0eab8ed1
+		Account ID: 3222625d-7500-4597-87b9-2135d9efb571
+		Amound: 14700
+		Currency: USD
+		Descryption: Card Topup
+		Balanc: 14700
+		],
+	}
+{
+	ID: 6243019f-fd65-a8e3-b4b9-1765f2a675d4
+	Type: topup
+	State: completed
+	Request ID: 19afaf95-22e9-44ba-8661-ca54beac1856
+	Created at: 29.03.2022 12:54:55
+	Updated at: 29.03.2022 12:54:55
+	Completed at: 29.03.2022 12:54:55
+	Legs: {
+		[
+		Leg ID: d1c6dcc0-e99d-4ad2-91a9-f803f37976c9
+		Account ID: a78a6740-937d-49e5-a7c2-51d9a486c96d
+		Amound: 3490
+		Currency: EUR
+		Descryption: Card Topup
+		Balanc: 3490
+		],
+	}
+{
+	ID: 6243019f-ab28-a014-9fae-04bfe77b7a56
+	Type: topup
+	State: completed
+	Request ID: b2e87168-bcee-4812-8695-a59dd3e1cc72
+	Created at: 29.03.2022 12:54:55
+	Updated at: 29.03.2022 12:54:55
+	Completed at: 29.03.2022 12:54:55
+	Legs: {
+		[
+		Leg ID: 64faf8f4-799d-4f31-98b1-bb4136727f25
+		Account ID: c9575216-cbb5-4717-bb99-748d4493d86a
+		Amound: 5300
+		Currency: AUD
+		Descryption: Card Topup
+		Balanc: 5300
+		],
+	}
+{
+	ID: 6243019f-46d7-aa5b-95c2-2e1acea359f4
+	Type: topup
+	State: completed
+	Request ID: 82ff80ec-6836-4abb-8c4b-cc08c99d3236
+	Created at: 29.03.2022 12:54:55
+	Updated at: 29.03.2022 12:54:55
+	Completed at: 29.03.2022 12:54:55
+	Legs: {
+		[
+		Leg ID: 9dea36c8-9945-48cd-8cdc-d8dbacad0b0f
+		Account ID: 3337a6f8-67ed-451d-90bf-f5eb927508d8
+		Amound: 28600
+		Currency: GBP
+		Descryption: Card Topup
+		Balanc: 28600
+		],
+	}

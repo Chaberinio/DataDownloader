@@ -1,0 +1,15 @@
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\bin\Debug\net5.0\TokenRefresher.deps.json
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\bin\Debug\net5.0\TokenRefresher.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\bin\Debug\net5.0\TokenRefresher.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\bin\Debug\net5.0\Core.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\bin\Debug\net5.0\Core.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.csproj.AssemblyReference.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.AssemblyInfoInputs.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.AssemblyInfo.cs
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.csproj.CopyComplete
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\refint\TokenRefresher.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\TokenRefresher.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\TokenGetter\obj\Debug\net5.0\ref\TokenRefresher.dll

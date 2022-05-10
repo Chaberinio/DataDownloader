@@ -69,3 +69,7 @@ C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\obj\Debug\ne
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.pdb
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\obj\Debug\net5.0\MainConsoleApp.genruntimeconfig.cache
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\obj\Debug\net5.0\ref\MainConsoleApp.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\TokenRefresher.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\TokenRefresher.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\DataSaver.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\DataSaver.pdb

@@ -8,21 +8,6 @@ namespace DataParsers
 {
     public class RevolutDataParser : IDataParser
     {
-
-
-
-        //public class Account
-        //{
-        //    public string id { get; set; }
-        //    public string name { get; set; }
-        //    public float balance { get; set; }
-        //    public string currency { get; set; }
-        //    public string state { get; set; }
-        //    public bool _public { get; set; }
-        //    public DateTime created_at { get; set; }
-        //    public DateTime updated_at { get; set; }
-        //}
-
         public string AccountsToString(string json)
         {
             List<AccJson> accountsList = null;
@@ -38,10 +23,9 @@ namespace DataParsers
                     "\n\tState: " + acc.state +
                     "\n\tPublic: " + acc._public +
                     "\n\tCreated at " + acc.created_at + " | Updated at: " + acc.updated_at +
-                    "\n}\n";
+                    "\n},\n";
 
             }
-
             return accountsString;
         }
 
@@ -99,49 +83,7 @@ namespace DataParsers
                         "\n}\n";
 
             }
-
             return transactionString;
         }
-
-        //public class Leg
-        //{
-        //    public string leg_id { get; set; }
-        //    public string account_id { get; set; }
-        //    public float amount { get; set; }
-        //    public string currency { get; set; }
-        //    public string description { get; set; }
-        //    public float balance { get; set; }
-        //    public Counterparty counterparty { get; set; }
-        //}
-
-        /*    {
-              "id": "624301a0-7ce0-ab4c-928a-dce88e39c5d2",
-              "type": "card_payment",
-              "state": "completed",
-              "request_id": "d893d3e6-d351-49fe-947c-7e096f55d220",
-              "created_at": "2022-03-29T12:54:56.757955Z",
-              "updated_at": "2022-03-29T12:54:56.757955Z",
-              "completed_at": "2022-03-29T12:54:56.758268Z",
-              "merchant": {
-                  "name": "Amazon",
-                  "city": "London",
-                  "category_code": "5969",
-                  "country": "GBR"
-               },
-              "legs": [
-                  {
-                      "leg_id": "098093e4-8d6f-4cea-8c5e-d0a2b8172d50",
-                      "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
-                      "amount": -11,
-                      "currency": "GBP",
-                      "description": "Amazon",
-                      "balance": 28556.01
-                  }
-              ],
-              "card": {
-                   "card_number": "805719******2246"
-              }
-            },*/
-
     }
 }

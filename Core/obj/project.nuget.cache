@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZM3AIMsXQsNHg2wu/iHMDj0oWBVBa2E1epvFVr83z9pQKNc3gu1WQ/wBmDndDhHIW8zBuwUQTr3UsPKynHDuUQ==",
+  "dgSpecHash": "wWUlg5mRpOpT5KgrHm2iXp4H0OiFVzRXReUueIi7u7yaSexsKIJccChBCAiF8WzpG+4hft5DE4WB6MCmT8GHtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dawid\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dawid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dawid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

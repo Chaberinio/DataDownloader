@@ -96,7 +96,7 @@ namespace DataDownloaders
             throw new NotImplementedException();
         }
 
-        public void SetParameter(string value)
+        public void SetToken(string value)
         {
             throw new NotImplementedException();
         }

@@ -1,0 +1,15 @@
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\bin\Debug\net5.0\DataSaver.deps.json
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\bin\Debug\net5.0\DataSaver.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\bin\Debug\net5.0\DataSaver.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\bin\Debug\net5.0\Core.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\bin\Debug\net5.0\Core.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.csproj.AssemblyReference.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.AssemblyInfoInputs.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.AssemblyInfo.cs
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.csproj.CopyComplete
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\refint\DataSaver.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\DataSaver.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataSaver\obj\Debug\net5.0\ref\DataSaver.dll

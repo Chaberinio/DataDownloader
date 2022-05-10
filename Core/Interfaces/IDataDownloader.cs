@@ -10,10 +10,7 @@ namespace Core.Interfaces
     {
         Task<string> GetAccounts();
         Task<string> GetTransactions();
-
-        Task GenerateTokenAsync(string grantType, string refreshToken, string ClientID, string ClientAssertionType, string ClientAssertion);
-
-        void SetParameter(string value);
+        void SetToken(string value);
 
     }
 }

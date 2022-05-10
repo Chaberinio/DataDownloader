@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Interfaces
 {
-    internal interface ITokenRefresher
+    public interface ITokenRefresher
     {
         Task<string> GetToken();
     }
