@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "R7etcHVXlr/OeYzPZ6QAERGMy69RUkmTBF5f2SFBWJSBXp4n6cCFaaYyYgSJQ9oVfA0UjEt50TxGvV/xOUYYPg==",
+  "dgSpecHash": "efopXJD+4n4tzO8NiBfX/6nsyCEoMjpjPNtTcRLAyTsOi95RWwrcwuWumyXySE8D4iNw+HwiEE+CO+06ZHs3Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj",
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dawid\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\chabe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

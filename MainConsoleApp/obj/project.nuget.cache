@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5WAvYNTE2Y4AJpeeruDSzI0FAeSD75lCz5+1hiVhLcDpj4TgrVcxvzvaBpxjV3xMzrRhXk0XxjR6wxi3o2h3CQ==",
+  "dgSpecHash": "8xStagvfhXGNQysErHxOV/Pm2b/seW9Kxm5pbTu/EWNfoBsxgdpTNyAhJXghyS34Srbkv31W4rnIk2rK0fsNYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dawid\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\chabe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

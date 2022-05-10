@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {}
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenGetter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenGetter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenGetter.csproj",
+        "projectName": "TokenGetter",
+        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenGetter.csproj",
         "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\obj\\",
+        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
