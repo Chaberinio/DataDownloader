@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainConsoleApp", "MainConsoleApp\MainConsoleApp.csproj", "{9F44210A-9B8C-48F8-A375-13A47CF76798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainConsoleApp", "MainConsoleApp\MainConsoleApp.csproj", "{9F44210A-9B8C-48F8-A375-13A47CF76798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDownloaders", "DataDownloaders\DataDownloaders.csproj", "{FC5FD1D7-65A4-4592-A44B-4E3CB9B0FCB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDownloaders", "DataDownloaders\DataDownloaders.csproj", "{FC5FD1D7-65A4-4592-A44B-4E3CB9B0FCB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParsers", "DataParsers\DataParsers.csproj", "{D2A98CE2-F1DD-47B9-8B08-87B1D2ABF0B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParsers", "DataParsers\DataParsers.csproj", "{D2A98CE2-F1DD-47B9-8B08-87B1D2ABF0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9234AABE-5685-41DD-AEA0-C799A4983E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9234AABE-5685-41DD-AEA0-C799A4983E3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

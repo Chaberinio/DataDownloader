@@ -26,6 +26,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Core": "1.0.0",
+          "DataParsers": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -40,7 +41,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Core": "1.0.0",
-          "DataDownloaders": "1.0.0"
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/DataParsers.dll": {}

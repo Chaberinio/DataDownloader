@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataParsers\DataParsers.csproj" />
   </ItemGroup>
 
 </Project>

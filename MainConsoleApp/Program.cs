@@ -1,7 +1,6 @@
 ﻿using Core.Exceptions;
 using Core.Interfaces;
 using DataDownloaders;
-using DataParsers;
 using System;
 using System.Threading.Tasks;
 
@@ -12,7 +11,6 @@ namespace MainConsoleApp
         static async Task Main(string[] args)
         {
             IDataDownloader dataDownloader = new RevolutDataDownloader();
-            IDataParser revolutDataParser = new RevolutDataParser();
             //string grantType = "refresh_token";
             //string refreshToken = "oa_sand_tn2IVETVE-Y-frCxq7xC1ax1_bq4j3u2m4bxtnJATSw";
             //string ClientID = "q5iANB5dr3I9-lxa6yJAKq_8gA0GdFH48mtipR0tQkw";
@@ -21,7 +19,7 @@ namespace MainConsoleApp
 
             //await dataDownloader.GenerateTokenAsync(grantType, refreshToken, ClientID, ClientAssertionType, ClientAssertion);
 
-            dataDownloader.SetParameter("oa_sand_o3ClhL4nwg3dDV0nvUlAnb18ygBKkykN2LW6dcp_Qv0");
+            dataDownloader.SetParameter("oa_sand_s8_aDMyTABLqTrIK9HVKUZgp3t3Zn9PkTnA2_fmGTT8");
 
             string output = "";
             try
@@ -33,21 +31,21 @@ namespace MainConsoleApp
                 while (isOn)
                 {
 
-                    Console.WriteLine("Press 1 for accounts, 2 for transactions or 3 to close the program");
+                    Console.WriteLine("Press 1 for accounts, 2 for transactions, 3 to download account list ,4 to download transactions list or 5 to close the program");
                     choice = int.Parse(Console.ReadLine());
 
                     switch (choice)
                     {
 
                         case 1:
-                            output = "ACCOUNTS:\n" + await revolutDataParser.AccountsToString();
+                            output = "ACCOUNTS:\n" + await dataDownloader.GetAccounts();
                             Console.WriteLine(output);
                             break;
                         case 2:
                             output = "TRANSACTIONS:\n" + await dataDownloader.GetTransactions();
                             Console.WriteLine(output);
                             break;
-                        case 4:
+                        case 3:
 
                             break;
 

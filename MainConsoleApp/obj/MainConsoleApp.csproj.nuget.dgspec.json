@@ -92,6 +92,9 @@
             "projectReferences": {
               "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
                 "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj": {
+                "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj"
               }
             }
           }
@@ -160,9 +163,6 @@
             "projectReferences": {
               "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
                 "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj"
-              },
-              "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
-                "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
               }
             }
           }
@@ -176,6 +176,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

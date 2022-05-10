@@ -8,7 +8,7 @@ namespace Core.Interfaces
 {
     public interface IDataParser
     {
-        Task<string> AccountsToString();
-        Task<string> TransactionsToString();
+        string AccountsToString(string json);
+        string TransactionsToString(string json);
     }
 }

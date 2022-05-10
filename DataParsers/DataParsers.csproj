@@ -9,8 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\DataDownloaders\DataDownloaders.csproj" />
   </ItemGroup>
 
 </Project>

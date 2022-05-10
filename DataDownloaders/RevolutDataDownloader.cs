@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using DataParsers;
 
 
 namespace DataDownloaders
@@ -9,19 +10,26 @@ namespace DataDownloaders
     public class RevolutDataDownloader : IDataDownloader
     {
         string baseUrl = "https://sandbox-b2b.revolut.com/api/1.0/";
-        string bearerToken = "";
+        string bearerToken = "oa_sand_vgsYVckNiRDzJ8FjwRBKqbSeYjLzHP6ftik9YwrsSeA";
+
+        IDataParser parser = new RevolutDataParser();
 
 
+        public void SetParameter(string value)
+        {
+            bearerToken = value;
+        }
 
         public async Task<string> GetAccounts()
         {
             using var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", bearerToken);
-            var url = baseUrl + "transactions";
+            var url = baseUrl + "accounts";
 
             var response = await client.GetAsync(url);
-            var result = await response.Content.ReadAsStringAsync();
+            var result = parser.AccountsToString(await response.Content.ReadAsStringAsync());
 
+            
             return result;
         }
 
@@ -68,16 +76,12 @@ namespace DataDownloaders
             var url = baseUrl + "transactions";
 
             var response = await client.GetAsync(url);
-            var result = await response.Content.ReadAsStringAsync();
+            var result = parser?.TransactionsToString(await response.Content.ReadAsStringAsync());
             //Console.WriteLine(result);
 
             return result;
         }
 
-        public void SetParameter(string value)
-        {
-            bearerToken = value;
-        }
 
 
     }

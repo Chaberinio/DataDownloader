@@ -9,6 +9,7 @@
       "DataDownloaders/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
+          "DataParsers": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -27,6 +28,15 @@
         "runtime": {
           "Core.dll": {}
         }
+      },
+      "DataParsers/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "DataParsers.dll": {}
+        }
       }
     }
   },
@@ -44,6 +54,11 @@
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataParsers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -20,20 +20,6 @@
         "runtime": {
           "bin/placeholder/Core.dll": {}
         }
-      },
-      "DataDownloaders/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "bin/placeholder/DataDownloaders.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataDownloaders.dll": {}
-        }
       }
     }
   },
@@ -69,17 +55,12 @@
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
-    },
-    "DataDownloaders/1.0.0": {
-      "type": "project",
-      "path": "../DataDownloaders/DataDownloaders.csproj",
-      "msbuildProject": "../DataDownloaders/DataDownloaders.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Core >= 1.0.0",
-      "DataDownloaders >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
@@ -116,9 +97,6 @@
           "projectReferences": {
             "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj"
-            },
-            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
-              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
             }
           }
         }
@@ -132,6 +110,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
