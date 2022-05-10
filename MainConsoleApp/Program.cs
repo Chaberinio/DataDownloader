@@ -54,7 +54,8 @@ namespace MainConsoleApp
                         case 3:
                             Console.WriteLine("Press 1 for .txt or 2 for .json: ");
                             fileFormat = int.Parse(Console.ReadLine());
-                            switch (fileFormat) {
+                            switch (fileFormat)
+                            {
                                 case 1:
                                     await dataSaver.SaveAsTxt(parser?.AccountsToString(await dataDownloader.GetAccounts()), "accounts");
                                     break;
@@ -69,7 +70,8 @@ namespace MainConsoleApp
                         case 4:
                             Console.WriteLine("Press 1 for .txt or 2 for .json: ");
                             fileFormat = int.Parse(Console.ReadLine());
-                            switch (fileFormat) {
+                            switch (fileFormat)
+                            {
                                 case 1:
                                     await dataSaver.SaveAsTxt(parser?.TransactionsToString(await dataDownloader.GetTransactions()), "transactions");
                                     break;
@@ -92,8 +94,8 @@ namespace MainConsoleApp
             }
             catch (Exception ex)
             {
-                if (ex is AuthenticationException)                
-                    Console.WriteLine("Problem z logowaniem");               
+                if (ex is AuthenticationException)
+                    Console.WriteLine("Problem z logowaniem");
                 else
                     Console.WriteLine("Inny problem");
             }

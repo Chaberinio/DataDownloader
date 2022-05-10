@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Core.Interfaces;
+using Core.Model;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Core.Interfaces;
-using Core.Model;
-using Newtonsoft.Json;
 
 namespace TokenRefresher
 {

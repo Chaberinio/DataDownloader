@@ -2,7 +2,6 @@
 using Core.Model;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace DataParsers
 {
@@ -29,7 +28,7 @@ namespace DataParsers
             return accountsString;
         }
 
-        public  string TransactionsToString(string json)
+        public string TransactionsToString(string json)
         {
             List<TransJson> transactionList = null;
             transactionList = JsonConvert.DeserializeObject<List<TransJson>>(json);
@@ -47,36 +46,36 @@ namespace DataParsers
                     "\n\tUpdated at: " + trans?.updated_at +
                     "\n\tCompleted at: " + trans?.created_at;
 
-                if(trans.merchant != null)
+                if (trans.merchant != null)
                     transactionString +=
                         "\n\tMerchant: {" +
                         "\n\t\tName: " + trans?.merchant?.name +
                         "\n\t\tCity: " + trans?.merchant?.city +
                         "\n\t\tCategory code: " + trans?.merchant?.category_code +
                         "\n\t\tCountry: " + trans?.merchant?.country +
-                        "\n\t}\n"; 
+                        "\n\t}\n";
 
                 transactionString +=
                      "\n\tLegs: {";
 
-                    foreach(var leg in trans?.legs)
-                        transactionString +=
-                        "\n\t\t[" +
-                        "\n\t\tLeg ID: " + leg?.leg_id +
-                        "\n\t\tAccount ID: " + leg?.account_id +
-                        "\n\t\tAmound: " + leg?.amount +
-                        "\n\t\tCurrency: " + leg?.currency +
-                        "\n\t\tDescryption: " + leg?.description +
-                        "\n\t\tBalanc: " + leg?.balance + 
-                        "\n\t\t],";
+                foreach (var leg in trans?.legs)
+                    transactionString +=
+                    "\n\t\t[" +
+                    "\n\t\tLeg ID: " + leg?.leg_id +
+                    "\n\t\tAccount ID: " + leg?.account_id +
+                    "\n\t\tAmound: " + leg?.amount +
+                    "\n\t\tCurrency: " + leg?.currency +
+                    "\n\t\tDescryption: " + leg?.description +
+                    "\n\t\tBalanc: " + leg?.balance +
+                    "\n\t\t],";
 
                 transactionString +=
                     "\n\t}\n";
 
                 if (trans.card != null)
                     transactionString +=
-                        "\n\tCard: {" + 
-                        "\n\t\tCard number: " + trans?.card?.card_number + 
+                        "\n\tCard: {" +
+                        "\n\t\tCard number: " + trans?.card?.card_number +
                         "\n\t\tName: " + trans?.card?.first_name + " " + trans?.card?.last_name +
                         "\n\t\tPhone: " + trans?.card?.phone +
                         "\n\t}\n" +
