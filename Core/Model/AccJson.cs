@@ -7,6 +7,7 @@ namespace Core.Model
     {
         public List<AccJson> data { get; set; }
     }
+
     public class AccJson
     {
         public string id { get; set; }

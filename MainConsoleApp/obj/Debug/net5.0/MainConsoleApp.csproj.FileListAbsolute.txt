@@ -73,3 +73,6 @@ C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\ne
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\TokenRefresher.pdb
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\DataSaver.dll
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\DataSaver.pdb
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MainConsoleApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

@@ -3,6 +3,7 @@
     public interface IDataParser
     {
         string AccountsToString(string json);
+
         string TransactionsToString(string json);
     }
 }

@@ -8,7 +8,6 @@ namespace DataDownloaders
     {
         //string[] acc = File.ReadAllLines(@"C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\Files\accounts.json");
 
-
         //string parameter = string.Empty;
         //string token = "oa_sand_p1R6DbI5DB2A0tixpahINpj1zAWOAWHL88PbvRdQSWU";
 
@@ -32,9 +31,6 @@ namespace DataDownloaders
         //    //var response = await client.PostAsync(url, );
         //    //var result = await response.Content.ReadAsStringAsync();
 
-
-
-
         //}
 
         //public Task GenerateTokenAsync(string grantType, string refreshToken, string ClientID, string ClientAssertionType, string ClientAssertion)
@@ -42,12 +38,11 @@ namespace DataDownloaders
         //    throw new NotImplementedException();
         //}
 
-
         //public Task<string> GetAccounts()
         //{
         //    string[] acc = File.ReadAllLines(@"C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\Files\accounts.json");
 
-        //    if (parameter!=token)            
+        //    if (parameter!=token)
         //      throw new AuthenticationException();
 
         //    for(int i = 0; i < acc.Length; i ++)
@@ -55,7 +50,6 @@ namespace DataDownloaders
 
         //    return result;
         //}
-
 
         //public Task<string> GetTransactions()
         //{

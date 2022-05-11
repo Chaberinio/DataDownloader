@@ -10,9 +10,9 @@ using TokenRefresher;
 
 namespace MainConsoleApp
 {
-    class Program
+    public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var serviceProvider = new ServiceCollection()
             .AddTransient<IDataDownloader, RevolutDataDownloader>()
@@ -20,7 +20,6 @@ namespace MainConsoleApp
             .AddTransient<IDataSaver, RevolutDataSaver>()
             .AddTransient<ITokenRefresher, RevolutTokenRefresher>()
             .BuildServiceProvider();
-
 
             ITokenRefresher tokenRefresher = serviceProvider.GetService<ITokenRefresher>();
             IDataDownloader dataDownloader = serviceProvider.GetService<IDataDownloader>();
@@ -47,10 +46,12 @@ namespace MainConsoleApp
                             output = "ACCOUNTS:\n" + parser?.AccountsToString(await dataDownloader.GetAccounts());
                             Console.WriteLine(output);
                             break;
+
                         case 2:
                             output = "TRANSACTIONS:\n" + parser?.TransactionsToString(await dataDownloader.GetTransactions());
                             Console.WriteLine(output);
                             break;
+
                         case 3:
                             Console.WriteLine("Press 1 for .txt or 2 for .json: ");
                             fileFormat = int.Parse(Console.ReadLine());
@@ -59,14 +60,17 @@ namespace MainConsoleApp
                                 case 1:
                                     await dataSaver.SaveAsTxt(parser?.AccountsToString(await dataDownloader.GetAccounts()), "accounts");
                                     break;
+
                                 case 2:
                                     await dataSaver.SaveAsJson(parser?.AccountsToString(await dataDownloader.GetAccounts()), "accounts");
                                     break;
+
                                 default:
                                     Console.WriteLine("Input error!");
                                     break;
                             }
                             break;
+
                         case 4:
                             Console.WriteLine("Press 1 for .txt or 2 for .json: ");
                             fileFormat = int.Parse(Console.ReadLine());
@@ -75,17 +79,29 @@ namespace MainConsoleApp
                                 case 1:
                                     await dataSaver.SaveAsTxt(parser?.TransactionsToString(await dataDownloader.GetTransactions()), "transactions");
                                     break;
+
                                 case 2:
                                     await dataSaver.SaveAsJson(parser?.TransactionsToString(await dataDownloader.GetTransactions()), "transactions");
                                     break;
+
                                 default:
                                     Console.WriteLine("Input error!");
                                     break;
                             }
                             break;
+
                         case 5:
                             isOn = false;
                             break;
+
+                        case 6:
+                            Console.WriteLine(await dataDownloader.GetAccounts());
+                            break;
+                        
+                        case 7:
+                            Console.WriteLine(await dataDownloader.GetTransactions());
+                            break;
+
                         default:
                             Console.WriteLine("Input error!");
                             break;

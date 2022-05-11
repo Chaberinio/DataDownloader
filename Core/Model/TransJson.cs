@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace Core.Model
 {
-
     public class Rootobject
     {
         public TransJson[] data { get; set; }
@@ -54,6 +53,4 @@ namespace Core.Model
     {
         public string account_type { get; set; }
     }
-
-
 }

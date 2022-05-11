@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenRefresher", "TokenGetter\TokenRefresher.csproj", "{7A66CBB8-E8ED-4876-BB38-BA5FA6A8DF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSaver", "DataSaver\DataSaver.csproj", "{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSaver", "DataSaver\DataSaver.csproj", "{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataDownloader", "TestDataDownloader\TestDataDownloader.csproj", "{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

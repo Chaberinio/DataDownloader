@@ -8,8 +8,8 @@ namespace DataDownloaders
 {
     public class RevolutDataDownloader : IDataDownloader
     {
-        string baseUrl = "https://sandbox-b2b.revolut.com/api/1.0/";
-        string bearerToken = "";
+        private string baseUrl = "https://sandbox-b2b.revolut.com/api/1.0/";
+        private string bearerToken = "";
 
         public void SetToken(string value)
         {
@@ -29,7 +29,6 @@ namespace DataDownloaders
                 throw new AuthenticationException();
 
             var result = await response.Content.ReadAsStringAsync();
-
 
             return result;
         }

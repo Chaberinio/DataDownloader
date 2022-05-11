@@ -1,0 +1,584 @@
+﻿[
+  {
+    "id": "624301a0-7ce0-ab4c-928a-dce88e39c5d2",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "d893d3e6-d351-49fe-947c-7e096f55d220",
+    "created_at": "2022-03-29T12:54:56.757955Z",
+    "updated_at": "2022-03-29T12:54:56.757955Z",
+    "completed_at": "2022-03-29T12:54:56.758268Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "098093e4-8d6f-4cea-8c5e-d0a2b8172d50",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -11,
+        "currency": "GBP",
+        "description": "Amazon",
+        "balance": 28556.01
+      }
+    ],
+    "card": {
+      "card_number": "805719******2246"
+    }
+  },
+  {
+    "id": "624301a0-1af9-ae8f-b0e3-f58b3bd16e91",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "1322baee-9ec7-42c0-947c-6df0358475c1",
+    "created_at": "2022-03-29T12:54:56.741029Z",
+    "updated_at": "2022-03-29T12:54:56.741029Z",
+    "completed_at": "2022-03-29T12:54:56.741330Z",
+    "merchant": {
+      "name": "Facebook Ads",
+      "city": "MENLO PARK",
+      "category_code": "7311",
+      "country": "USA"
+    },
+    "legs": [
+      {
+        "leg_id": "8a2098b6-7138-43c0-b930-8200994a2925",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -21.5,
+        "currency": "GBP",
+        "description": "Facebook Ads",
+        "balance": 28567.01
+      }
+    ],
+    "card": {
+      "card_number": "388507******3244"
+    }
+  },
+  {
+    "id": "624301a0-73a0-afad-aa2b-e6a51dccd532",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "8f13923e-fbca-4491-9f28-6f2086044c66",
+    "created_at": "2022-03-29T12:54:56.724130Z",
+    "updated_at": "2022-03-29T12:54:56.724130Z",
+    "completed_at": "2022-03-29T12:54:56.724473Z",
+    "merchant": {
+      "name": "Google",
+      "city": "Cc@google.com",
+      "category_code": "5968",
+      "country": "IRL"
+    },
+    "legs": [
+      {
+        "leg_id": "f4cbe205-c178-45be-90a4-c68969d45096",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -240,
+        "currency": "GBP",
+        "description": "Google",
+        "balance": 28588.51
+      }
+    ],
+    "card": {
+      "card_number": "974793******4919"
+    }
+  },
+  {
+    "id": "624301a0-192a-ad11-923a-b24133cddaf8",
+    "type": "card_payment",
+    "state": "reverted",
+    "request_id": "340bdbca-679d-4b86-853d-01e557a271c5",
+    "created_at": "2022-03-29T12:54:56.681078Z",
+    "updated_at": "2022-03-29T12:54:56.710870Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "e87abb79-1c96-42b9-9730-84f74c6e6619",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -10.99,
+        "currency": "GBP",
+        "description": "Amazon"
+      }
+    ],
+    "card": {
+      "card_number": "825085******0526",
+      "first_name": "Grace",
+      "last_name": "Wright",
+      "phone": "+447223125098"
+    }
+  },
+  {
+    "id": "624301a0-9dee-ada5-b1ee-55a05544db32",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "354b7840-2245-4b30-bdb9-3c2282658ef0",
+    "created_at": "2022-03-29T12:54:56.655482Z",
+    "updated_at": "2022-03-29T12:54:56.655482Z",
+    "completed_at": "2022-03-29T12:54:56.655976Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "af2567e1-8334-45b1-8e6f-61e55a312456",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -59.99,
+        "currency": "GBP",
+        "description": "Amazon",
+        "balance": 28828.51
+      }
+    ],
+    "card": {
+      "card_number": "825085******0526",
+      "first_name": "Grace",
+      "last_name": "Wright",
+      "phone": "+447223125098"
+    }
+  },
+  {
+    "id": "624301a0-803a-a37c-90c3-52565b5c7c6a",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "9aec1b78-bba1-405c-a751-1802b25a789d",
+    "created_at": "2022-03-29T12:54:56.632438Z",
+    "updated_at": "2022-03-29T12:54:56.632438Z",
+    "completed_at": "2022-03-29T12:54:56.632794Z",
+    "merchant": {
+      "name": "Tesco Stores",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "c262f887-f32d-41e0-86aa-2946bd998fbe",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": -11.5,
+        "currency": "GBP",
+        "description": "Tesco Stores",
+        "balance": 28888.5
+      }
+    ],
+    "card": {
+      "card_number": "825085******0526",
+      "first_name": "Grace",
+      "last_name": "Wright",
+      "phone": "+447223125098"
+    }
+  },
+  {
+    "id": "624301a0-7089-a09c-9462-22a29bc0b66a",
+    "type": "card_payment",
+    "state": "reverted",
+    "request_id": "b89b3f7c-953d-4be5-b8fa-7c81db75af98",
+    "created_at": "2022-03-29T12:54:56.589960Z",
+    "updated_at": "2022-03-29T12:54:56.618285Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "e8625276-e0fe-423e-bf84-75f37f47aeb2",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "amount": -10.99,
+        "currency": "EUR",
+        "description": "Amazon"
+      }
+    ],
+    "card": {
+      "card_number": "651897******4468",
+      "first_name": "James",
+      "last_name": "West",
+      "phone": "+447235194499"
+    }
+  },
+  {
+    "id": "624301a0-bad6-a27c-9fc2-0b3e03527106",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "d0da120e-dee9-4dfa-a2dc-4e9975dd7844",
+    "created_at": "2022-03-29T12:54:56.564183Z",
+    "updated_at": "2022-03-29T12:54:56.564183Z",
+    "completed_at": "2022-03-29T12:54:56.564505Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "dacd34fb-9ed4-4d10-b9ce-88af31459a02",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "amount": -59.99,
+        "currency": "EUR",
+        "description": "Amazon",
+        "balance": 3208.51
+      }
+    ],
+    "card": {
+      "card_number": "651897******4468",
+      "first_name": "James",
+      "last_name": "West",
+      "phone": "+447235194499"
+    }
+  },
+  {
+    "id": "624301a0-7725-a29b-9093-0fe780e480e2",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "ec7b6f9e-9584-4bc7-a95c-fc442c806412",
+    "created_at": "2022-03-29T12:54:56.539183Z",
+    "updated_at": "2022-03-29T12:54:56.539183Z",
+    "completed_at": "2022-03-29T12:54:56.539503Z",
+    "merchant": {
+      "name": "Tesco Stores",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "768ec9a8-8d7b-4eb0-a7a8-e68a26c1c481",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "amount": -11.5,
+        "currency": "EUR",
+        "description": "Tesco Stores",
+        "balance": 3268.5
+      }
+    ],
+    "card": {
+      "card_number": "651897******4468",
+      "first_name": "James",
+      "last_name": "West",
+      "phone": "+447235194499"
+    }
+  },
+  {
+    "id": "624301a0-94c2-a1b6-b20a-3832c2fd4904",
+    "type": "card_payment",
+    "state": "reverted",
+    "request_id": "ebb8cac4-d4f1-48b4-a5e2-9227ce9b2aa0",
+    "created_at": "2022-03-29T12:54:56.491977Z",
+    "updated_at": "2022-03-29T12:54:56.524639Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "d71e557b-92ea-4817-b058-0e2f4d79e54b",
+        "account_id": "3222625d-7500-4597-87b9-2135d9efb571",
+        "amount": -10.99,
+        "currency": "USD",
+        "description": "Amazon"
+      }
+    ],
+    "card": {
+      "card_number": "541482******8608",
+      "first_name": "Charles",
+      "last_name": "Adams",
+      "phone": "+447212381557"
+    }
+  },
+  {
+    "id": "624301a0-1200-a741-969d-7368e204e7af",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "effe496b-10fb-4771-81ff-49fe32b0b77b",
+    "created_at": "2022-03-29T12:54:56.471036Z",
+    "updated_at": "2022-03-29T12:54:56.471036Z",
+    "completed_at": "2022-03-29T12:54:56.471365Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "11489684-0e2e-4981-a505-69c3d016601c",
+        "account_id": "3222625d-7500-4597-87b9-2135d9efb571",
+        "amount": -59.99,
+        "currency": "USD",
+        "description": "Amazon",
+        "balance": 14628.51
+      }
+    ],
+    "card": {
+      "card_number": "541482******8608",
+      "first_name": "Charles",
+      "last_name": "Adams",
+      "phone": "+447212381557"
+    }
+  },
+  {
+    "id": "624301a0-a92c-a5bf-8fde-5789c8cd6fed",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "a60df0b1-1e16-4ec9-acf6-1f1eec24ff74",
+    "created_at": "2022-03-29T12:54:56.452439Z",
+    "updated_at": "2022-03-29T12:54:56.452439Z",
+    "completed_at": "2022-03-29T12:54:56.452805Z",
+    "merchant": {
+      "name": "Tesco Stores",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "85ff593d-f75e-4ea3-91a9-cccb947783ad",
+        "account_id": "3222625d-7500-4597-87b9-2135d9efb571",
+        "amount": -11.5,
+        "currency": "USD",
+        "description": "Tesco Stores",
+        "balance": 14688.5
+      }
+    ],
+    "card": {
+      "card_number": "541482******8608",
+      "first_name": "Charles",
+      "last_name": "Adams",
+      "phone": "+447212381557"
+    }
+  },
+  {
+    "id": "624301a0-7e7a-a570-9987-78359a01cb16",
+    "type": "card_payment",
+    "state": "reverted",
+    "request_id": "d7c74388-a0c7-4bc6-b162-e60de098fa50",
+    "created_at": "2022-03-29T12:54:56.396122Z",
+    "updated_at": "2022-03-29T12:54:56.430758Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "2a394c05-42f4-417f-98c1-818b56422595",
+        "account_id": "c9575216-cbb5-4717-bb99-748d4493d86a",
+        "amount": -10.99,
+        "currency": "AUD",
+        "description": "Amazon"
+      }
+    ],
+    "card": {
+      "card_number": "437427******2838",
+      "first_name": "Emilia",
+      "last_name": "Thompson",
+      "phone": "+447241378099"
+    }
+  },
+  {
+    "id": "624301a0-de3c-a028-b7cc-1dccfb0a0f49",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "c951ce5d-2120-4086-9cba-f168acdda757",
+    "created_at": "2022-03-29T12:54:56.375213Z",
+    "updated_at": "2022-03-29T12:54:56.375213Z",
+    "completed_at": "2022-03-29T12:54:56.375528Z",
+    "merchant": {
+      "name": "Amazon",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "4b2a0900-0d11-4241-88cd-50481d1b8bf3",
+        "account_id": "c9575216-cbb5-4717-bb99-748d4493d86a",
+        "amount": -59.99,
+        "currency": "AUD",
+        "description": "Amazon",
+        "balance": 5228.51
+      }
+    ],
+    "card": {
+      "card_number": "437427******2838",
+      "first_name": "Emilia",
+      "last_name": "Thompson",
+      "phone": "+447241378099"
+    }
+  },
+  {
+    "id": "624301a0-12f8-a424-8a8e-3d2155922fa5",
+    "type": "card_payment",
+    "state": "completed",
+    "request_id": "4d216427-481e-4dbf-a8cb-ad8dfd1e1bd2",
+    "created_at": "2022-03-29T12:54:56.355012Z",
+    "updated_at": "2022-03-29T12:54:56.355012Z",
+    "completed_at": "2022-03-29T12:54:56.355369Z",
+    "merchant": {
+      "name": "Tesco Stores",
+      "city": "London",
+      "category_code": "5969",
+      "country": "GBR"
+    },
+    "legs": [
+      {
+        "leg_id": "11706963-453a-40bb-a2c3-ac5767fa55f9",
+        "account_id": "c9575216-cbb5-4717-bb99-748d4493d86a",
+        "amount": -11.5,
+        "currency": "AUD",
+        "description": "Tesco Stores",
+        "balance": 5288.5
+      }
+    ],
+    "card": {
+      "card_number": "437427******2838",
+      "first_name": "Emilia",
+      "last_name": "Thompson",
+      "phone": "+447241378099"
+    }
+  },
+  {
+    "id": "624301a0-c20a-a0f2-a353-3ab79e16abd0",
+    "type": "topup",
+    "state": "failed",
+    "request_id": "65adbe2d-a45b-4db3-9e9f-dc442bbd621b",
+    "created_at": "2022-03-29T12:54:56.248852Z",
+    "updated_at": "2022-03-29T12:54:56.269320Z",
+    "legs": [
+      {
+        "leg_id": "dc45c4c3-2ce5-4576-9bad-f2c4fb33b6f5",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "amount": 80,
+        "currency": "EUR",
+        "description": "Card Topup"
+      }
+    ]
+  },
+  {
+    "id": "624301a0-83ad-abcd-b9d4-01881ae8dadd",
+    "type": "topup",
+    "state": "completed",
+    "request_id": "babc6f44-ea50-403c-8a09-a8cdfdc63e2c",
+    "created_at": "2022-03-29T12:54:56.224836Z",
+    "updated_at": "2022-03-29T12:54:56.224836Z",
+    "completed_at": "2022-03-29T12:54:56.225222Z",
+    "legs": [
+      {
+        "leg_id": "fadf1ed4-db00-4a1f-877e-717ed0291004",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": 300,
+        "currency": "GBP",
+        "description": "Card Topup",
+        "balance": 28900
+      }
+    ]
+  },
+  {
+    "id": "624301a0-6b98-a4f7-9ddf-b6ff9ba91291",
+    "type": "transfer",
+    "state": "completed",
+    "request_id": "3102acf2-d329-4ce8-ba64-ee2197400ece",
+    "created_at": "2022-03-29T12:54:56.199537Z",
+    "updated_at": "2022-03-29T12:54:56.199537Z",
+    "completed_at": "2022-03-29T12:54:56.199915Z",
+    "legs": [
+      {
+        "leg_id": "0d88eb48-e8ef-471c-bd55-59fcba6258e7",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "counterparty": {
+          "account_type": "revolut"
+        },
+        "amount": -210,
+        "currency": "EUR",
+        "description": "To Rory Pearson",
+        "balance": 3280
+      }
+    ]
+  },
+  {
+    "id": "6243019f-b45c-a782-adef-7c1d909c7798",
+    "type": "topup",
+    "state": "completed",
+    "request_id": "60886983-7400-41f2-9223-1af7ea9e25d6",
+    "created_at": "2022-03-29T12:54:55.908369Z",
+    "updated_at": "2022-03-29T12:54:55.908369Z",
+    "completed_at": "2022-03-29T12:54:55.908782Z",
+    "legs": [
+      {
+        "leg_id": "e5bcd070-412e-4c22-ad62-8abc0eab8ed1",
+        "account_id": "3222625d-7500-4597-87b9-2135d9efb571",
+        "amount": 14700,
+        "currency": "USD",
+        "description": "Card Topup",
+        "balance": 14700
+      }
+    ]
+  },
+  {
+    "id": "6243019f-fd65-a8e3-b4b9-1765f2a675d4",
+    "type": "topup",
+    "state": "completed",
+    "request_id": "19afaf95-22e9-44ba-8661-ca54beac1856",
+    "created_at": "2022-03-29T12:54:55.868273Z",
+    "updated_at": "2022-03-29T12:54:55.868273Z",
+    "completed_at": "2022-03-29T12:54:55.870202Z",
+    "legs": [
+      {
+        "leg_id": "d1c6dcc0-e99d-4ad2-91a9-f803f37976c9",
+        "account_id": "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+        "amount": 3490,
+        "currency": "EUR",
+        "description": "Card Topup",
+        "balance": 3490
+      }
+    ]
+  },
+  {
+    "id": "6243019f-ab28-a014-9fae-04bfe77b7a56",
+    "type": "topup",
+    "state": "completed",
+    "request_id": "b2e87168-bcee-4812-8695-a59dd3e1cc72",
+    "created_at": "2022-03-29T12:54:55.844889Z",
+    "updated_at": "2022-03-29T12:54:55.844889Z",
+    "completed_at": "2022-03-29T12:54:55.845279Z",
+    "legs": [
+      {
+        "leg_id": "64faf8f4-799d-4f31-98b1-bb4136727f25",
+        "account_id": "c9575216-cbb5-4717-bb99-748d4493d86a",
+        "amount": 5300,
+        "currency": "AUD",
+        "description": "Card Topup",
+        "balance": 5300
+      }
+    ]
+  },
+  {
+    "id": "6243019f-46d7-aa5b-95c2-2e1acea359f4",
+    "type": "topup",
+    "state": "completed",
+    "request_id": "82ff80ec-6836-4abb-8c4b-cc08c99d3236",
+    "created_at": "2022-03-29T12:54:55.796351Z",
+    "updated_at": "2022-03-29T12:54:55.796351Z",
+    "completed_at": "2022-03-29T12:54:55.796919Z",
+    "legs": [
+      {
+        "leg_id": "9dea36c8-9945-48cd-8cdc-d8dbacad0b0f",
+        "account_id": "3337a6f8-67ed-451d-90bf-f5eb927508d8",
+        "amount": 28600,
+        "currency": "GBP",
+        "description": "Card Topup",
+        "balance": 28600
+      }
+    ]
+  }
+]
