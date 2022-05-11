@@ -55,6 +55,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "MT940": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "compile": {
@@ -76,6 +77,16 @@
         },
         "runtime": {
           "bin/placeholder/DataParsers.dll": {}
+        }
+      },
+      "MT940/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MT940.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MT940.dll": {}
         }
       }
     }
@@ -192,6 +203,11 @@
       "type": "project",
       "path": "../DataParsers/DataParsers.csproj",
       "msbuildProject": "../DataParsers/DataParsers.csproj"
+    },
+    "MT940/1.0.0": {
+      "type": "project",
+      "path": "../MT940/MT940.csproj",
+      "msbuildProject": "../MT940/MT940.csproj"
     }
   },
   "projectFileDependencyGroups": {

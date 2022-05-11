@@ -15,7 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenRefresher", "TokenGett
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSaver", "DataSaver\DataSaver.csproj", "{2A80B00E-A020-46E4-A05C-6E36D0EB58FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataDownloader", "TestDataDownloader\TestDataDownloader.csproj", "{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDataDownloader", "TestDataDownloader\TestDataDownloader.csproj", "{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT940", "MT940\MT940.csproj", "{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConverter", "DataConverter\DataConverter.csproj", "{2D367433-D9ED-410A-95D9-E9603216297A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C4D01B23-0699-412F-AC07-75F11C455402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revolut2MT940ConverterTester", "Revolut2MT940ConverterTester\Revolut2MT940ConverterTester.csproj", "{132DF359-B25C-471F-8097-187440EAB497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +59,24 @@ Global
 		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B454E1-B626-4F1B-8A0E-DAC7E2AA258C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D367433-D9ED-410A-95D9-E9603216297A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D367433-D9ED-410A-95D9-E9603216297A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D367433-D9ED-410A-95D9-E9603216297A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D367433-D9ED-410A-95D9-E9603216297A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132DF359-B25C-471F-8097-187440EAB497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132DF359-B25C-471F-8097-187440EAB497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132DF359-B25C-471F-8097-187440EAB497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132DF359-B25C-471F-8097-187440EAB497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132DF359-B25C-471F-8097-187440EAB497} = {C4D01B23-0699-412F-AC07-75F11C455402}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96DDF0E-76AF-4028-806A-1414686D7ACF}

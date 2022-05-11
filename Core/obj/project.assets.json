@@ -41,6 +41,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "MT940/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MT940.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MT940.dll": {}
+        }
       }
     }
   },
@@ -119,10 +129,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MT940/1.0.0": {
+      "type": "project",
+      "path": "../MT940/MT940.csproj",
+      "msbuildProject": "../MT940/MT940.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MT940 >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0"
     ]
   },
@@ -157,7 +173,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

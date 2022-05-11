@@ -55,6 +55,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "MT940": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "compile": {
@@ -104,6 +105,16 @@
         },
         "runtime": {
           "bin/placeholder/DataSaver.dll": {}
+        }
+      },
+      "MT940/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MT940.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MT940.dll": {}
         }
       },
       "TokenRefresher/1.0.0": {
@@ -244,6 +255,11 @@
       "type": "project",
       "path": "../DataSaver/DataSaver.csproj",
       "msbuildProject": "../DataSaver/DataSaver.csproj"
+    },
+    "MT940/1.0.0": {
+      "type": "project",
+      "path": "../MT940/MT940.csproj",
+      "msbuildProject": "../MT940/MT940.csproj"
     },
     "TokenRefresher/1.0.0": {
       "type": "project",

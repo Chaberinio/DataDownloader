@@ -1,0 +1,13 @@
+C:\Users\ppil\source\repos\AndraTransactionExplorerEiffage\MT940\bin\Debug\MT940.dll
+C:\Users\ppil\source\repos\AndraTransactionExplorerEiffage\MT940\bin\Debug\MT940.pdb
+C:\Users\ppil\source\repos\AndraTransactionExplorerEiffage\MT940\obj\Debug\MT940.csproj.CoreCompileInputs.cache
+C:\Users\ppil\source\repos\AndraTransactionExplorerEiffage\MT940\obj\Debug\MT940.dll
+C:\Users\ppil\source\repos\AndraTransactionExplorerEiffage\MT940\obj\Debug\MT940.pdb
+C:\e\e\MT940\bin\Debug\MT940.dll
+C:\e\e\MT940\bin\Debug\MT940.pdb
+C:\e\e\MT940\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\e\e\MT940\obj\Debug\MT940.csproj.CoreCompileInputs.cache
+C:\e\e\MT940\obj\Debug\MT940.csproj.CopyComplete
+C:\e\e\MT940\obj\Debug\MT940.dll
+C:\e\e\MT940\obj\Debug\MT940.pdb
+C:\e\e\MT940\obj\Debug\MT940.csproj.AssemblyReference.cache

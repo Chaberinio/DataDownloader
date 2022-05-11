@@ -1,0 +1,35 @@
+///////////////////////////////////////////////////////////
+// Plik szablonu, na podstawie którego tworzone s¹ elementy
+// numeru wersji pliku w AssemblyInfo.cs ka¿dego podprojektu
+// Wymagania:
+// zainstalowany Tortoise SVN (wymagany program SubWCRev.exe)
+// Dopisanie skryptu precompile podprojektu:
+// cd "$(ProjectDir)"
+// SubWCRev.exe .\ "$(SolutionDir)versionSVN.cs.tmpl" versionSVN.cs~
+///////////////////////////////////////////////////////////
+
+// Niektóre, mo¿liwe do u¿ycia encje:
+//Revision = "7916";
+//Modified = "Not modified";
+//Date     = "2018/01/12 12:43:15";
+//Range    = "10219";
+//Mixed    = "Not mixed";
+//URL      = "svn://172.25.31.199/ebs/AndraTransactionExplorer/branches/Eiffage/MT940";
+
+//Revision = "181";
+//Modified = "Modified";
+//Date     = "2010/10/07 11:49:33";
+//Range    = "178:181";
+//Mixed    = "Mixed revision WC";
+//URL      = "svn://172.25.31.199/Comander CMS/trunk/CommanderResetService/CommanderResetService";
+
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// Numer wersji aplikacji (np. 2.3) modyfikowaæ globalnie tutaj poni¿ej.
+// Nie modyfikowaæ pól wersji w Formatce AssemblyInformation 
+// (inaczej VS dopisze duplikat, który trzeba bêdzie skasowaæ)!
+
+[assembly: AssemblyFileVersion("1.0.0.7916")]
+[assembly: AssemblyVersion("1.0.0.7916")]
