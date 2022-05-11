@@ -6130,10 +6130,15 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Core >= 1.0.0",
+      "DataDownloaders >= 1.0.0",
+      "DataParsers >= 1.0.0",
+      "DataSaver >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "MainConsoleApp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "TokenRefresher >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit.extensibility.execution >= 2.4.1"
     ]
@@ -6170,8 +6175,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj"
+            },
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
+            },
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj"
+            },
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj"
+            },
             "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj": {
               "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj"
+            },
+            "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj": {
+              "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj"
             }
           }
         }

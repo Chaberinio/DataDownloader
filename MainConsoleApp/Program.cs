@@ -12,7 +12,7 @@ namespace MainConsoleApp
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+        public static async Task Main()
         {
             var serviceProvider = new ServiceCollection()
             .AddTransient<IDataDownloader, RevolutDataDownloader>()

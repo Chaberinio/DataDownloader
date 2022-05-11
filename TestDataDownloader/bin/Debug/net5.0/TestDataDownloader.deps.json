@@ -8,10 +8,15 @@
     ".NETCoreApp,Version=v5.0": {
       "TestDataDownloader/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
+          "DataDownloaders": "1.0.0",
+          "DataParsers": "1.0.0",
+          "DataSaver": "1.0.0",
           "MSTest.TestAdapter": "2.2.3",
           "MSTest.TestFramework": "2.2.3",
           "MainConsoleApp": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
+          "TokenRefresher": "1.0.0",
           "coverlet.collector": "3.0.2",
           "xunit.extensibility.execution": "2.4.1"
         },

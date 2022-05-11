@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -15,7 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataDownloaders\DataDownloaders.csproj" />
+    <ProjectReference Include="..\DataParsers\DataParsers.csproj" />
+    <ProjectReference Include="..\DataSaver\DataSaver.csproj" />
     <ProjectReference Include="..\MainConsoleApp\MainConsoleApp.csproj" />
+    <ProjectReference Include="..\TokenGetter\TokenRefresher.csproj" />
   </ItemGroup>
 
   <ItemGroup>

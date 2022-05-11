@@ -3,25 +3,33 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using Xunit.Sdk;
+using DataDownloaders;
+using Core.Interfaces;
+using TokenRefresher;
 
 namespace TestDataDownloader
 {
     [TestClass]
     public class UnitTest1
     {
-        private string expectedAccountsJson = File.ReadAllText(@"Files\accounts.json");
+        private string[] expectedAccountsJsonArr = File.ReadAllLines(@"Files\accounts.json");
         private string expectedTransactionJson = File.ReadAllText(@"Files\trans.json");
 
         [TestMethod]
         public async Task TestMethodAccountsJson()
         {
+            string expectedAccountsJson = "";
+            for (int i = 0; i < expectedAccountsJsonArr.Length; i++)
+                expectedAccountsJson += expectedAccountsJsonArr[i];
             using (var sw = new StringWriter())
             {
-                string[] args = { "6" };
-                Console.SetOut(sw);
-                await MainConsoleApp.Program.Main(args);
+                ITokenRefresher tokenRefresher = new RevolutTokenRefresher();
+                IDataDownloader dataDownloader = new RevolutDataDownloader();
+                dataDownloader.SetToken(await tokenRefresher.GetToken());
 
-                var result = sw.ToString().Trim();
+                Console.SetOut(sw);
+
+                var result = await dataDownloader.GetAccounts();
                 Assert.AreEqual(expectedAccountsJson, result);
             }
         }
