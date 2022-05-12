@@ -33,3 +33,15 @@ C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.dll
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\refint\MT940.dll
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.pdb
 C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\ref\MT940.dll
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\bin\Debug\net5.0\MT940.deps.json
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\bin\Debug\net5.0\MT940.dll
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\bin\Debug\net5.0\MT940.pdb
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.csproj.AssemblyReference.cache
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.AssemblyInfoInputs.cache
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.AssemblyInfo.cs
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.csproj.CoreCompileInputs.cache
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.dll
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\refint\MT940.dll
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.pdb
+D:\Projects\FinancialDataDownloader\DataDownloader\MT940\obj\Debug\net5.0\ref\MT940.dll

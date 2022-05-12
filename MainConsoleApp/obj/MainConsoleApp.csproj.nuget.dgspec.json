@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj": {}
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj"
               }
             }
           }
@@ -68,18 +72,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj",
         "projectName": "DataDownloaders",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -92,11 +100,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
               },
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj"
               }
             }
           }
@@ -135,18 +143,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj",
         "projectName": "DataParsers",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -159,8 +171,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
               }
             }
           }
@@ -199,18 +211,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
         "projectName": "DataSaver",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -223,8 +239,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
               }
             }
           }
@@ -257,18 +273,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
         "projectName": "MainConsoleApp",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MainConsoleApp\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MainConsoleApp\\MainConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MainConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -281,20 +301,23 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
               },
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataDownloaders\\DataDownloaders.csproj"
               },
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataParsers\\DataParsers.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataParsers\\DataParsers.csproj"
               },
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj"
               },
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenRefresher.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenRefresher.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj"
+              },
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj"
               }
             }
           }
@@ -337,18 +360,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj",
         "projectName": "MT940",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -391,18 +418,22 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenRefresher.csproj": {
+    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenRefresher.csproj",
+        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj",
         "projectName": "TokenRefresher",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\TokenRefresher.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\TokenGetter\\obj\\",
+        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\TokenRefresher.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\TokenGetter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -415,8 +446,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
               }
             }
           }

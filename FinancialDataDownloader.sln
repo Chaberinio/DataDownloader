@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDataDownloader", "TestD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT940", "MT940\MT940.csproj", "{3BD26F6B-AD21-4FD8-8A6B-4463653CDAF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConverter", "DataConverter\DataConverter.csproj", "{2D367433-D9ED-410A-95D9-E9603216297A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataConverter", "DataConverter\DataConverter.csproj", "{2D367433-D9ED-410A-95D9-E9603216297A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C4D01B23-0699-412F-AC07-75F11C455402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revolut2MT940ConverterTester", "Revolut2MT940ConverterTester\Revolut2MT940ConverterTester.csproj", "{132DF359-B25C-471F-8097-187440EAB497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revolut2MT940ConverterTester", "Revolut2MT940ConverterTester\Revolut2MT940ConverterTester.csproj", "{132DF359-B25C-471F-8097-187440EAB497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{CFB998CB-8479-425F-8C9A-662AADCA1315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{132DF359-B25C-471F-8097-187440EAB497} = {C4D01B23-0699-412F-AC07-75F11C455402}
+		{CFB998CB-8479-425F-8C9A-662AADCA1315} = {C4D01B23-0699-412F-AC07-75F11C455402}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96DDF0E-76AF-4028-806A-1414686D7ACF}

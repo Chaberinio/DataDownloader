@@ -15,6 +15,7 @@
     <ProjectReference Include="..\DataDownloaders\DataDownloaders.csproj" />
     <ProjectReference Include="..\DataParsers\DataParsers.csproj" />
     <ProjectReference Include="..\DataSaver\DataSaver.csproj" />
+    <ProjectReference Include="..\MT940\MT940.csproj" />
     <ProjectReference Include="..\TokenGetter\TokenRefresher.csproj" />
   </ItemGroup>
 

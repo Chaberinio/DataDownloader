@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qkllH8xUGl9HhRFOjVMwGAA6SwnrUYtCxJfeQ/OfyPgGZMn5qmiNUqQJUduocHGxkiJqPLphPrBu4O7U5s90uQ==",
+  "dgSpecHash": "yeFhrD7EY/MfqhK7YuA5mBYE4osPfkP0JzV8E41kGvcOOMjPJxXsZkEqrhEFYmhNLxU9Avz2y4BWLDmqBexu8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj",
+  "projectFilePath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chabe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\chabe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\chabe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

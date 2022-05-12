@@ -563,6 +563,7 @@
           "DataDownloaders": "1.0.0",
           "DataParsers": "1.0.0",
           "DataSaver": "1.0.0",
+          "MT940": "1.0.0",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.2.1",
           "TokenRefresher": "1.0.0"

@@ -15,4 +15,9 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataConverter\DataConverter.csproj" />
+  </ItemGroup>
+
 </Project>
