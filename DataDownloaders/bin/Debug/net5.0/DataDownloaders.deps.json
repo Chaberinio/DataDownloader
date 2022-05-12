@@ -54,6 +54,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "MT940": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "runtime": {
@@ -67,6 +68,11 @@
         },
         "runtime": {
           "DataParsers.dll": {}
+        }
+      },
+      "MT940/1.0.0": {
+        "runtime": {
+          "MT940.dll": {}
         }
       }
     }
@@ -111,6 +117,11 @@
       "sha512": ""
     },
     "DataParsers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MT940/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

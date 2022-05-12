@@ -45,3 +45,7 @@ C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataDownloaders\obj\Debug\n
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataDownloaders\obj\Debug\net5.0\ref\DataDownloaders.dll
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataDownloaders\bin\Debug\net5.0\DataParsers.dll
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\DataDownloaders\bin\Debug\net5.0\DataParsers.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\bin\Debug\net5.0\DataParsers.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\bin\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\bin\Debug\net5.0\DataParsers.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataDownloaders\bin\Debug\net5.0\MT940.pdb

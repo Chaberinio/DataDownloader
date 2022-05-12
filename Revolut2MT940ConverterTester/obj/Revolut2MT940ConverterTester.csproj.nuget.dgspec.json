@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj": {}
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj": {
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj",
+        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj",
         "projectName": "Revolut2MT940ConverterTester",
-        "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj",
-        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Revolut2MT940ConverterTester\\obj\\",
+        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Revolut2MT940ConverterTester\\Revolut2MT940ConverterTester.csproj",
+        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Revolut2MT940ConverterTester\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -78,6 +78,11 @@ namespace DataDownloaders
             throw new NotImplementedException();
         }
 
+        public Task<string> GetIban()
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<string> GetTransactions()
         {
             throw new NotImplementedException();

@@ -1,6 +1,7 @@
 ﻿using Core.Interfaces;
 using Core.Model;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 
 namespace DataParsers
@@ -23,7 +24,6 @@ namespace DataParsers
                     "\n\tPublic: " + acc._public +
                     "\n\tCreated at " + acc.created_at + " | Updated at: " + acc.updated_at +
                     "\n},\n";
-
             }
             return accountsString;
         }
@@ -80,9 +80,30 @@ namespace DataParsers
                         "\n\t\tPhone: " + trans?.card?.phone +
                         "\n\t}\n" +
                         "\n}\n";
-
             }
             return transactionString;
+        }
+
+        public string GetIbanToString(string json)
+        {
+            AccountDetails accountDetails = JsonConvert.DeserializeObject<AccountDetails>(json);
+
+            return accountDetails.iban;
+        }
+
+        public string AccountIdToString(string json)
+        {
+            List<AccJson> accountsList = null;
+            accountsList = JsonConvert.DeserializeObject<List<AccJson>>(json);
+
+            string[] accountsString = { "" };
+            int i = 0;
+
+            foreach (var acc in accountsList)
+            {
+                accountsString[i++] += acc.id;
+            }
+            return accountsString[2];
         }
     }
 }

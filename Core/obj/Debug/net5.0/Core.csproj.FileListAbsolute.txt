@@ -34,3 +34,6 @@ C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\Core\obj\Debug\net5.0\Core.
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\Core\obj\Debug\net5.0\refint\Core.dll
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\Core\obj\Debug\net5.0\Core.pdb
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Core\bin\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Core\bin\Debug\net5.0\MT940.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Core\obj\Debug\net5.0\Core.csproj.CopyComplete

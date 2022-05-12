@@ -53,10 +53,16 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "MT940": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "runtime": {
           "Core.dll": {}
+        }
+      },
+      "MT940/1.0.0": {
+        "runtime": {
+          "MT940.dll": {}
         }
       }
     }
@@ -96,6 +102,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MT940/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

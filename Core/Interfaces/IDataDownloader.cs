@@ -8,6 +8,8 @@ namespace Core.Interfaces
 
         Task<string> GetTransactions();
 
+        Task<string> GetIban();
+
         void SetToken(string value);
     }
 }

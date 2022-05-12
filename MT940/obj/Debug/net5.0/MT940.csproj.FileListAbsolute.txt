@@ -21,3 +21,15 @@ C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT94
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MT940\obj\Debug\net5.0\refint\MT940.dll
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MT940\obj\Debug\net5.0\MT940.pdb
 C:\Users\Dawid\Desktop\DataDownloader\DataDownloader\MT940\obj\Debug\net5.0\ref\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\bin\Debug\net5.0\MT940.deps.json
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\bin\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\bin\Debug\net5.0\MT940.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.csproj.AssemblyReference.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.AssemblyInfoInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.AssemblyInfo.cs
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.csproj.CoreCompileInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\refint\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\MT940.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\MT940\obj\Debug\net5.0\ref\MT940.dll

@@ -1,0 +1,17 @@
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\DataConverter.deps.json
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\DataConverter.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\DataConverter.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\Core.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\Core.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\bin\Debug\net5.0\MT940.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.csproj.AssemblyReference.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.AssemblyInfoInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.AssemblyInfo.cs
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.csproj.CoreCompileInputs.cache
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.csproj.CopyComplete
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\refint\DataConverter.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\DataConverter.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\DataConverter\obj\Debug\net5.0\ref\DataConverter.dll
