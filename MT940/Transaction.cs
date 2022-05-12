@@ -49,5 +49,7 @@ namespace MT940
                  " Typ=" + b52;
             return s;
         }
+
+
     }
 }

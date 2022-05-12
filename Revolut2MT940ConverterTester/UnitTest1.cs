@@ -1,27 +1,28 @@
 using Core.Model;
+using DataConverter;
 using MT940;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using DataConverter;
 
 namespace Revolut2MT940ConverterTester
 {
     public class UnitTest1
     {
-        //:20: data 
+        //:20: data
         //:25: iban
         //:NS:22 nazwa w³aœciciela
         //:NS:23 nazwa rachunku
         //:60F: debet/kredty, data, waluta, kwota
-        //:86: kod operacji, <00typ operacji, <10numer sekwencyjny, <20<26 tytu³ operacji,<27<29 adres kontrachenta, <38rachunek kontrachenta, 
+        //:86: kod operacji, <00typ operacji, <10numer sekwencyjny, <20<26 tytu³ operacji,<27<29 adres kontrachenta, <38rachunek kontrachenta,
         //:62F: debet/kredyt, data salda koñcowego, waluta salda, kwota
         //:64: debet/kredyt, data salda dostêpnego, waluta, kwota
-        AccJson inputAcc;
-        List<TransJson> inputTrans;
-        string inputIban;
-        StatementMT940? output = null;
-        Revolut2MT940Converter converter;
+        private AccJson inputAcc;
+
+        private List<TransJson> inputTrans;
+        private string inputIban;
+        private StatementMT940? output = new StatementMT940();
+        private Revolut2MT940Converter converter = new Revolut2MT940Converter();
 
         [SetUp]
         public void SetUp()
@@ -32,8 +33,6 @@ namespace Revolut2MT940ConverterTester
                 name = "European suppliers",
                 balance = 3208.51F,
                 currency = "EUR"
-
-
             };
 
             inputTrans = new List<TransJson>()
@@ -71,9 +70,8 @@ namespace Revolut2MT940ConverterTester
 
                     card = new Card()
                     {
-                        card_number = "805719******2246"                       
+                        card_number = "805719******2246"
                     }
-
                 },
                 new TransJson()
                 {
@@ -115,16 +113,32 @@ namespace Revolut2MT940ConverterTester
                 }
             };
 
-
             inputIban = "PL30116022020000001111111111";
-            
-            output = converter.Convert(inputAcc, inputTrans, inputIban);
+
+            output = converter?.Convert(inputAcc, inputTrans, inputIban);
+            Console.WriteLine("test");
+        }
+
+        [Test]
+        public void LastCompletedDateToTransRefNum()
+        {
+            string dayOfYear = DateTime.Now.DayOfYear.ToString().PadLeft(3, '0');
+            string hh = DateTime.Now.Hour.ToString().PadLeft(2, '0');
+            string mm = DateTime.Now.Minute.ToString().PadLeft(2, '0');
+
+            Assert.AreEqual(dayOfYear + hh + mm, output.transRefNum);
+        }
+
+        [Test]
+        public void TransRefNumLengthIs7()
+        {
+            Assert.IsTrue(output.transRefNum.Length == 7);
         }
 
         [Test]
         public void IbanTorawAccId()
         {
-           Assert.AreEqual(inputIban, output.rawAccId);
+            Assert.AreEqual(inputIban, output.rawAccId);
         }
 
         [Test]
@@ -136,7 +150,82 @@ namespace Revolut2MT940ConverterTester
         [Test]
         public void LastUpdateDateToCloseDate()
         {
-            Assert.AreEqual(inputTrans[0].updated_at, output.closeBal.bookDate);
+            Assert.AreEqual(inputTrans[inputTrans.Count - 1].completed_at, output.closeBal.bookDate);
+        }
+
+        [Test]
+        public void TransLineAmountIsAbsolute()
+        {
+            List<decimal> absolute = new List<decimal>();
+            List<decimal> transLinesAmount = new List<decimal>();
+
+            foreach (var transaction in output.transactions)
+                transLinesAmount.Add(transaction.transLine.amount);
+
+            foreach (var trans in inputTrans)
+                absolute.Add((decimal)Math.Abs(trans.legs[0].amount));
+
+            CollectionAssert.AreEqual(absolute, transLinesAmount);
+        }
+
+        [Test]
+        public void TransLineValueDateEqualsTransJsonCreated_At()
+        {
+            List<DateTime> transJsonCreated_AtDates = new List<DateTime>();
+            List<DateTime> transLineValueDates = new List<DateTime>();
+
+            foreach (var value in output.transactions)
+                transLineValueDates.Add(value.transLine.valueDate);
+
+            foreach (var trans in inputTrans)
+                transJsonCreated_AtDates.Add(trans.created_at);
+
+            CollectionAssert.AreEqual(transJsonCreated_AtDates, transLineValueDates);
+        }
+
+        [Test]
+        public void TransLineBookingDateEqualsTransJsonCompleted_At()
+        {
+            List<DateTime> transJsonCompleted_AtDates = new List<DateTime>();
+            List<DateTime> transLineBookingDates = new List<DateTime>();
+
+            foreach (var value in output.transactions)
+                transLineBookingDates.Add(value.transLine.bookingDate.Value);
+
+            foreach (var value in inputTrans)
+                transJsonCompleted_AtDates.Add(value.completed_at);
+
+            CollectionAssert.AreEqual(transJsonCompleted_AtDates, transLineBookingDates);
+        }
+
+        [Test]
+        public void CreditDebitMarkIsRightWithAmountSign()
+        {
+            List<string> transLines = new List<string>();
+            List<string> creditDebit = new List<string>();
+
+            foreach (var trans in inputTrans)
+                creditDebit.Add(trans.legs[0].amount >= 0 ? "C" : "D");
+
+            foreach (var value in output.transactions)
+                transLines.Add(value.transLine.debitCreditMark);
+
+            CollectionAssert.AreEqual(transLines, creditDebit);
+        }
+
+        [Test]
+        public void PredictedRawDataIsEqualtoOutputRawData()
+        {
+            List<string> PredictedRawData = new List<string>();
+            List<string> RawData = new List<string>();
+
+            PredictedRawData.Add("2203290329DP11,00NTRF//");
+            PredictedRawData.Add("2203290329DP21,50NTRF//");
+
+            foreach (var value in output.transactions)
+                RawData.Add(value.transLine.rawData);
+
+            CollectionAssert.AreEqual(RawData, PredictedRawData);
         }
     }
 }
