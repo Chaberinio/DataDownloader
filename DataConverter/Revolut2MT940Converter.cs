@@ -43,6 +43,8 @@ namespace DataConverter
             output.closeBal.rawData = ":62F:" + debitCreditMark + output.closeBal.rawData;
             output.curValDatedBal.rawData = ":64:" + debitCreditMark + output.curValDatedBal.rawData;
 
+            output.freeField = "Bank statement from: " + String.Format("{0:dd-MM-yyyy}", DateTime.Now);
+
             return output;
         }
 

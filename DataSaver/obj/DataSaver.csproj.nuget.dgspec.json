@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj": {}
+    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
+    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj"
+              "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
+                "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj"
               }
             }
           }
@@ -68,17 +72,21 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj": {
+    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj",
+        "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
         "projectName": "DataSaver",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\DataSaver.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataSaver\\obj\\",
+        "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\DataSaver.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\DataSaver\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +100,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
+              "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\Core\\Core.csproj"
               }
             }
           }
@@ -126,17 +134,21 @@
         }
       }
     },
-    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
+    "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
+        "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj",
         "projectName": "MT940",
-        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
-        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\obj\\",
+        "projectPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\MT940.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid\\Desktop\\DataDownloader\\DataDownloader\\MT940\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
