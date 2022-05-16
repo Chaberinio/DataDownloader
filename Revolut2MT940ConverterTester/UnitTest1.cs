@@ -265,5 +265,11 @@ namespace Revolut2MT940ConverterTester
             CollectionAssert.AreEqual(PredictedRawData, RawData);
             
         }
+
+        [Test]
+        public void FreeFieldHasCorrectDateFormat()
+        {
+            Assert.IsTrue(output.freeField.Contains("16-05-2022"));
+        }
     }
 }
