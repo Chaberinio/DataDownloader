@@ -23,16 +23,18 @@ namespace Revolut2MT940ConverterTester
         private string inputIban;
         private StatementMT940? output = new StatementMT940();
         private Revolut2MT940Converter converter = new Revolut2MT940Converter();
+        private List<string> inputIbanCounterparty = new List<string>();
+        
 
         [SetUp]
         public void SetUp()
         {
             inputAcc = new AccJson()
             {
-                id = "a78a6740-937d-49e5-a7c2-51d9a486c96d",
+                id = "3337a6f8-67ed-451d-90bf-f5eb927508d8",
                 name = "European suppliers",
-                balance = 3208.51F,
-                currency = "EUR"
+                balance = 28556.01F,
+                currency = "GBP"
             };
 
             inputTrans = new List<TransJson>()
@@ -113,9 +115,15 @@ namespace Revolut2MT940ConverterTester
                 }
             };
 
+            //private string AmazonIBAN = "GB11BARC20040475692433";
+            //private string FacebookIBAN = "GB91BARC20038015466316";
+
+            inputIbanCounterparty.Add("GB11BARC20040475692433");
+            inputIbanCounterparty.Add("GB91BARC20038015466316");
+
             inputIban = "PL30116022020000001111111111";
 
-            output = converter?.Convert(inputAcc, inputTrans, inputIban);
+            output = converter?.Convert(inputAcc, inputTrans, inputIban, inputIbanCounterparty);
             Console.WriteLine("test");
         }
 
@@ -214,18 +222,48 @@ namespace Revolut2MT940ConverterTester
         }
 
         [Test]
-        public void PredictedRawDataIsEqualtoOutputRawData()
+        public void Field61PredictedRawDataIsEqualtoOutputRawData()
         {
             List<string> PredictedRawData = new List<string>();
             List<string> RawData = new List<string>();
 
-            PredictedRawData.Add("2203290329DP11,00NTRF//");
-            PredictedRawData.Add("2203290329DP21,50NTRF//");
+            PredictedRawData.Add(":61:2203290329DP11,00NTRF//");
+            PredictedRawData.Add(":61:2203290329DP21,50NTRF//");
 
             foreach (var value in output.transactions)
                 RawData.Add(value.transLine.rawData);
 
             CollectionAssert.AreEqual(RawData, PredictedRawData);
+        }
+
+        [Test]
+        public void Field62FPredictedRawDataIsEqualToOutputRawData()
+        {
+            string PredictedRawData = ":62F:C220329GBP28567,01";
+            Assert.AreEqual(PredictedRawData, output.closeBal.rawData);
+        }
+
+        [Test]
+        public void Field64PredictedRawDataIsEqualToOutputRawData()
+        {
+            string PredictedRawData = ":64:C220329GBP28567,01";
+            Assert.AreEqual(PredictedRawData, output.curValDatedBal.rawData);
+        }
+
+        [Test]
+        public void Field86PredicterRawDataIsEqualToOutputRawData()
+        {
+            List<string> PredictedRawData = new List<string>();
+            List<string> RawData = new List<string>();
+
+            PredictedRawData.Add(":86:114<00card_payment\n<20Amazon\n<21\n<22\n<23\n<24\n<25\n<26\n<27Amazon London GBR\n<28\n<29\n<30\n<31\n<32\n<33\n<38GB11BARC20040475692433\n<63");
+            PredictedRawData.Add(":86:114<00card_payment\n<20Facebook Ads\n<21\n<22\n<23\n<24\n<25\n<26\n<27Facebook Ads MENLO PARK USA\n<28\n<29\n<30\n<31\n<32\n<33\n<38GB91BARC20038015466316\n<63");
+
+            foreach (var value in output.transactions)
+                RawData.Add(value.details.rawData);
+
+            CollectionAssert.AreEqual(PredictedRawData, RawData);
+            
         }
     }
 }

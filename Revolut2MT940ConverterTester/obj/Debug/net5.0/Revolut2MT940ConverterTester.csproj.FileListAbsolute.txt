@@ -220,3 +220,13 @@ D:\Projects\FinancialDataDownloader\DataDownloader\Revolut2MT940ConverterTester\
 D:\Projects\FinancialDataDownloader\DataDownloader\Revolut2MT940ConverterTester\obj\Debug\net5.0\Revolut2MT940ConverterTester.csproj.CopyComplete
 D:\Projects\FinancialDataDownloader\DataDownloader\Revolut2MT940ConverterTester\obj\Debug\net5.0\Revolut2MT940ConverterTester.genruntimeconfig.cache
 D:\Projects\FinancialDataDownloader\DataDownloader\Revolut2MT940ConverterTester\obj\Debug\net5.0\ref\Revolut2MT940ConverterTester.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\Core.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\DataConverter.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\MT940.dll
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\Core.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\DataConverter.pdb
+C:\Users\chabe\OneDrive\Pulpit\DataDownloader\Revolut2MT940ConverterTester\bin\Debug\net5.0\MT940.pdb

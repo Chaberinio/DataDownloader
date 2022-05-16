@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fs5q6dRvjf8hi7oc8CK31BWDXKeGdHM0wxMkMIJhqSpV1i+8eSKazHAptt0V1rOirNqpXEFYcLsLcfK4my5uNA==",
+  "dgSpecHash": "dxrBrfpCBfWB+Xp9k5sHMqJWZKaeee6zHy8yZKpm4HyuifmGeEf9kULLIcw+e/hsgkNMMipi+2pWoGdCculdAQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj",
+  "projectFilePath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

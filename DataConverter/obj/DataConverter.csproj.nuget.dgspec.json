@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataConverter\\DataConverter.csproj": {}
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataConverter\\DataConverter.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\obj\\",
+        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -32,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
-                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj"
+              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
+                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj"
               }
             }
           }
@@ -68,26 +64,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataConverter\\DataConverter.csproj": {
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataConverter\\DataConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataConverter\\DataConverter.csproj",
+        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataConverter\\DataConverter.csproj",
         "projectName": "DataConverter",
-        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataConverter\\DataConverter.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\DataConverter\\obj\\",
+        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataConverter\\DataConverter.csproj",
+        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\DataConverter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -100,8 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj": {
-                "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\Core\\Core.csproj"
+              "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\Core\\Core.csproj"
               }
             }
           }
@@ -130,26 +122,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj": {
+    "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj",
+        "projectUniqueName": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
         "projectName": "MT940",
-        "projectPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\MT940.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FinancialDataDownloader\\DataDownloader\\MT940\\obj\\",
+        "projectPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\MT940.csproj",
+        "packagesPath": "C:\\Users\\chabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chabe\\OneDrive\\Pulpit\\DataDownloader\\MT940\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\chabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -188,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
