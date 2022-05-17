@@ -4,8 +4,6 @@ using MT940;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataConverter
 {
@@ -15,7 +13,7 @@ namespace DataConverter
         //przelew B22
         //wpłata 0
 
-        IDictionary<string, string> dictPaymentTypes = new Dictionary<string, string>();
+        private IDictionary<string, string> dictPaymentTypes = new Dictionary<string, string>();
 
         public StatementMT940 Convert(AccJson account, List<TransJson> TransList, string iban, List<string> counterpartyIbanList)
         {
@@ -26,7 +24,6 @@ namespace DataConverter
             output.transRefNum = CreateTransRefNum(TransList[TransList.Count - 1].completed_at);
             output.rawAccId = iban;
 
-
             var TransAndCounterpartyIbans = TransList.Zip(counterpartyIbanList, (t, c) => new { trans = t, counterpartyIban = c });
 
             foreach (var tc in TransAndCounterpartyIbans)
@@ -35,7 +32,6 @@ namespace DataConverter
             output.openBal = CreateBalance(TransList[0].created_at, TransList[0].legs[0].currency, (decimal)TransList[0].legs[0].balance);
             output.closeBal = CreateBalance(TransList[TransList.Count - 1].completed_at, TransList[TransList.Count - 1].legs[0].currency, (decimal)TransList[TransList.Count - 1].legs[0].balance);
             output.curValDatedBal = CreateBalance(TransList[TransList.Count - 1].completed_at, TransList[TransList.Count - 1].legs[0].currency, (decimal)TransList[TransList.Count - 1].legs[0].balance);
-
 
             string debitCreditMark = DebitOrCredit(output.openBal, output.closeBal);
 
@@ -50,7 +46,7 @@ namespace DataConverter
 
         private string CreateTransRefNum(DateTime date)
         {
-            string dayOfYear = DateTime.Now.DayOfYear.ToString().PadLeft(3,'0');
+            string dayOfYear = DateTime.Now.DayOfYear.ToString().PadLeft(3, '0');
             string hh = DateTime.Now.Hour.ToString().PadLeft(2, '0');
             string mm = DateTime.Now.Minute.ToString().PadLeft(2, '0');
 
@@ -67,7 +63,6 @@ namespace DataConverter
 
             balance.rawData = balance.bookDate.ToString("yy").PadLeft(2, '0') + balance.bookDate.ToString("MM").PadLeft(2, '0') + balance.bookDate.ToString("dd").PadLeft(2, '0') + currency + String.Format("{0:0.00}", amount).Replace('.', ',');
 
-            
             return balance;
         }
 
@@ -93,7 +88,6 @@ namespace DataConverter
             string underField28 = temp.Length > 35 ? temp.Length < 70 ? temp : temp.Substring(35, 70) : "";
             string underField29 = temp.Length > 70 ? temp.Length < 140 ? temp : temp.Substring(70, 140) : "";
 
-
             details.rawData = ":86:" + dictPaymentTypes[trans.type] +
                 "<00" + trans.type +
                 "\n<20" + underField20 +
@@ -113,7 +107,6 @@ namespace DataConverter
                 "\n<38" + details.counterpartyAcc +
                 "\n<63" + "";
 
-
             return details;
         }
 
@@ -122,8 +115,6 @@ namespace DataConverter
             Transaction transaction = new Transaction();
             transaction.transLine = CreateTransLine(trans); // :61
             transaction.details = CreateDetails(trans, counterpartyIban); // :86
-            
-
 
             return transaction;
         }
@@ -147,13 +138,11 @@ namespace DataConverter
             transLine.debitCreditMark = trans.legs[0].amount >= 0 ? "C" : "D";
             transLine.amount = (decimal)Math.Abs(trans.legs[0].amount);
 
-
-            string valueDate = transLine.valueDate.ToString("yy").PadLeft(2,'0') + transLine.valueDate.ToString("MM").PadLeft(2,'0') + transLine.valueDate.ToString("dd").PadLeft(2,'0');
-            string bookingDate = transLine.bookingDate.Value.ToString("MM").PadLeft(2,'0') + transLine.bookingDate.Value.ToString("dd").PadLeft(2,'0');
+            string valueDate = transLine.valueDate.ToString("yy").PadLeft(2, '0') + transLine.valueDate.ToString("MM").PadLeft(2, '0') + transLine.valueDate.ToString("dd").PadLeft(2, '0');
+            string bookingDate = transLine.bookingDate.Value.ToString("MM").PadLeft(2, '0') + transLine.bookingDate.Value.ToString("dd").PadLeft(2, '0');
             string currencyName = trans.legs[0].currency.ToString();
 
-            transLine.rawData = ":61:" + valueDate + bookingDate + transLine.debitCreditMark + currencyName[2] + String.Format("{0:0.00}",transLine.amount).Replace('.',',') + "NTRF//";
-
+            transLine.rawData = ":61:" + valueDate + bookingDate + transLine.debitCreditMark + currencyName[2] + String.Format("{0:0.00}", transLine.amount).Replace('.', ',') + "NTRF//";
 
             return transLine;
         }
@@ -163,6 +152,5 @@ namespace DataConverter
             string result = closeBalance.amount >= openBalance.amount ? "C" : "D";
             return result;
         }
-        
     }
 }

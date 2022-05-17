@@ -24,7 +24,6 @@ namespace Revolut2MT940ConverterTester
         private StatementMT940? output = new StatementMT940();
         private Revolut2MT940Converter converter = new Revolut2MT940Converter();
         private List<string> inputIbanCounterparty = new List<string>();
-        
 
         [SetUp]
         public void SetUp()
@@ -103,7 +102,7 @@ namespace Revolut2MT940ConverterTester
                             account_id = "3337a6f8-67ed-451d-90bf-f5eb927508d8",
                             amount = -21.5F,
                             currency = "GBP",
-                            description = "Facebook Ads",
+                            description = "Facebook Ads Facebook Ads Facebook Ads",
                             balance = 28567.01F
                         }
                     },
@@ -257,19 +256,18 @@ namespace Revolut2MT940ConverterTester
             List<string> RawData = new List<string>();
 
             PredictedRawData.Add(":86:114<00card_payment\n<20Amazon\n<21\n<22\n<23\n<24\n<25\n<26\n<27Amazon London GBR\n<28\n<29\n<30\n<31\n<32\n<33\n<38GB11BARC20040475692433\n<63");
-            PredictedRawData.Add(":86:114<00card_payment\n<20Facebook Ads\n<21\n<22\n<23\n<24\n<25\n<26\n<27Facebook Ads MENLO PARK USA\n<28\n<29\n<30\n<31\n<32\n<33\n<38GB91BARC20038015466316\n<63");
+            PredictedRawData.Add(":86:114<00card_payment\n<20Facebook Ads Facebook Ads Facebook \n<21Ads\n<22\n<23\n<24\n<25\n<26\n<27Facebook Ads MENLO PARK USA\n<28\n<29\n<30\n<31\n<32\n<33\n<38GB91BARC20038015466316\n<63");
 
             foreach (var value in output.transactions)
                 RawData.Add(value.details.rawData);
 
             CollectionAssert.AreEqual(PredictedRawData, RawData);
-            
         }
 
         [Test]
         public void FreeFieldHasCorrectDateFormat()
         {
-            Assert.IsTrue(output.freeField.Contains("16-05-2022"));
+            Assert.IsTrue(output.freeField.Contains(String.Format("{0:dd-MM-yyyy}", DateTime.Now)));
         }
     }
 }

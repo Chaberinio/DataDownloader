@@ -1,7 +1,6 @@
 ﻿using Core.Interfaces;
 using Core.Model;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 
 namespace DataParsers

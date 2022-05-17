@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Serialization;
-using System.Xml;
+﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace MT940
 {
@@ -45,6 +43,7 @@ namespace MT940
         }
 
         #region IXmlSerializable Members
+
         public System.Xml.Schema.XmlSchema GetSchema()
         {
             return null;
@@ -61,7 +60,8 @@ namespace MT940
             if (wasEmpty)
                 return;
 
-            while (reader.NodeType != XmlNodeType.EndElement) {
+            while (reader.NodeType != XmlNodeType.EndElement)
+            {
                 reader.ReadStartElement("item");
 
                 reader.ReadStartElement("key");
@@ -86,7 +86,8 @@ namespace MT940
             XmlSerializer keySerializer = new XmlSerializer(typeof(TKey));
             XmlSerializer valueSerializer = new XmlSerializer(typeof(TValue));
 
-            foreach (TKey key in Keys) {
+            foreach (TKey key in Keys)
+            {
                 writer.WriteStartElement("item");
 
                 writer.WriteStartElement("key");
@@ -101,6 +102,7 @@ namespace MT940
                 writer.WriteEndElement();
             }
         }
-        #endregion
+
+        #endregion IXmlSerializable Members
     }
 }

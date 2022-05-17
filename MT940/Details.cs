@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace MT940
 {
     public class Details
@@ -15,8 +12,6 @@ namespace MT940
 
         public string ToNiceString()
         {
-
-
             string s = string.Empty;
             s += "Rach przeciwny: " + this.counterpartyAcc;
             return s;

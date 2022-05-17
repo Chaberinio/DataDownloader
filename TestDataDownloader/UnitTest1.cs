@@ -1,11 +1,11 @@
+using Core.Interfaces;
+using DataDownloaders;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Xunit.Sdk;
-using DataDownloaders;
-using Core.Interfaces;
 using TokenRefresher;
+using Xunit.Sdk;
 
 namespace TestDataDownloader
 {

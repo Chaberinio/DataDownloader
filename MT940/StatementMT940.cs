@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Serialization;
-using System.Text.RegularExpressions;
 
 namespace MT940
 {
@@ -55,11 +54,12 @@ namespace MT940
             }
         }
 
-        public StatementMT940() { }
+        public StatementMT940()
+        { }
 
         public StatementMT940(IList<Tuple<uint, string>> recordLines)
         {
-            this.recordLines = (List<Tuple<uint, string>>) recordLines;
+            this.recordLines = (List<Tuple<uint, string>>)recordLines;
         }
 
         public StatementMT940(SerializationInfo info, StreamingContext ctxt)
@@ -85,7 +85,6 @@ namespace MT940
 
         public string ToNiceString()
         {
-
             string s = string.Empty;
 
             s += "Wyciąg z rachunku: ";
@@ -98,6 +97,6 @@ namespace MT940
             }
 
             return s;
-        }      
+        }
     }
 }

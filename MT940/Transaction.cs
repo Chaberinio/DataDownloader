@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Linq;
 
 namespace MT940
 {
@@ -49,7 +47,5 @@ namespace MT940
                  " Typ=" + b52;
             return s;
         }
-
-
     }
 }

@@ -97,7 +97,7 @@ namespace MainConsoleApp
                         case 6:
                             Console.WriteLine(await dataDownloader.GetAccounts());
                             break;
-                        
+
                         case 7:
                             Console.WriteLine(await dataDownloader.GetTransactions());
                             break;

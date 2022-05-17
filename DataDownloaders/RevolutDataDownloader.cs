@@ -1,6 +1,5 @@
 ﻿using Core.Exceptions;
 using Core.Interfaces;
-using Core.Model;
 using DataParsers;
 using System.Net.Http;
 using System.Net.Http.Headers;
